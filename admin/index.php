@@ -270,7 +270,7 @@
                       </button>
 					          </div>
                   </div>
-                  
+
                   <section class="row m-b-md"></section>
                   <div class="row">
                     <div class="col-sm-12">
@@ -516,6 +516,134 @@
                           </div>
                         </div>
                       </div>
+
+                      <div id="datepicker" class="row ">
+                        <div class="col-lg-12 pull-right">
+                          <button class="btn btn-flat btn-default pull-right" id="dashboard-range">
+                            <span class="icon ion-ios7-calendar-outline"></span>
+                            <span class="text-date"><?php echo date("F j, Y", strtotime('-30 day')); ?> - <?php echo date("F j, Y"); ?></span>
+                            <b class="caret"></b>
+                          </button>
+                        </div>
+                      </div>
+
+                        <br>
+
+                      <section class="row m-l-none m-r-none m-b text-center bg-white panel b-a">
+                      <div class="container">
+                        <ul class="nav nav-tabs nav-justified">
+                          <li class="active"><a data-toggle="tab" href="#top">Top</a></li>
+                          <li><a data-toggle="tab" href="#trending">Trending</a></li>
+                        </ul>
+
+                        <div class="tab-content">
+                          <div id="top" class="tab-pane fade in active">
+                            <h3>Top Users</h3>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <h4>Revenue</h4>
+                                <p>1. Lorem ipsum dolor sit amet <br>
+                                   2. consectetur adipisicing elit <br>
+                                   3. sed do eiusmod tempor incididunt <br>
+                                   4. ut labore et dolore magna aliqua.<br>
+                                   5. Ut enim ad minim veniam, quis<br>
+                                   7. nostrud exercitation ullamco <br>
+                                   8. laboris nisi ut aliquip ex<br>
+                                   9. ea commodo consequat. Duis aute<br>
+                                   10. irure dolor in reprehenderit in</p>
+                              </div>
+                              <div class="col-md-6">
+                                <h4>Ad Requests</h4>
+                                <p>1. Lorem ipsum dolor sit amet <br>
+                                   2. consectetur adipisicing elit <br>
+                                   3. sed do eiusmod tempor incididunt <br>
+                                   4. ut labore et dolore magna aliqua.<br>
+                                   5. Ut enim ad minim veniam, quis<br>
+                                   7. nostrud exercitation ullamco <br>
+                                   8. laboris nisi ut aliquip ex<br>
+                                   9. ea commodo consequat. Duis aute<br>
+                                   10. irure dolor in reprehenderit in</p>
+                              </div>
+                            </div>
+                            <h3>Top Affiliators</h3>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <h4>Revenue</h4>
+                                <p>1. Lorem ipsum dolor sit amet <br>
+                                   2. consectetur adipisicing elit <br>
+                                   3. sed do eiusmod tempor incididunt <br>
+                                   4. ut labore et dolore magna aliqua.<br>
+                                   5. Ut enim ad minim veniam, quis<br>
+                                   7. nostrud exercitation ullamco <br>
+                                   8. laboris nisi ut aliquip ex<br>
+                                   9. ea commodo consequat. Duis aute<br>
+                                   10. irure dolor in reprehenderit in</p>
+                              </div>
+                              <div class="col-md-6">
+                                <h4>No. of Referrals</h4>
+                                <p>1. Lorem ipsum dolor sit amet <br>
+                                   2. consectetur adipisicing elit <br>
+                                   3. sed do eiusmod tempor incididunt <br>
+                                   4. ut labore et dolore magna aliqua.<br>
+                                   5. Ut enim ad minim veniam, quis<br>
+                                   7. nostrud exercitation ullamco <br>
+                                   8. laboris nisi ut aliquip ex<br>
+                                   9. ea commodo consequat. Duis aute<br>
+                                   10. irure dolor in reprehenderit in</p>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <h3>Top Monetization Partners</h4>
+                                  <p>1. Lorem ipsum dolor sit amet <br>
+                                     2. consectetur adipisicing elit <br>
+                                     3. sed do eiusmod tempor incididunt <br>
+                                     4. ut labore et dolore magna aliqua.<br>
+                                     5. Ut enim ad minim veniam, quis<br>
+                                     7. nostrud exercitation ullamco <br>
+                                     8. laboris nisi ut aliquip ex<br>
+                                     9. ea commodo consequat. Duis aute<br>
+                                     10. irure dolor in reprehenderit in</p>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div id="trending" class="tab-pane fade">
+                            <h3>Trending Countries</h3>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <h4>Gaining</h4>
+                                <p>1. Lorem ipsum dolor sit amet <br>
+                                   2. consectetur adipisicing elit <br>
+                                   3. sed do eiusmod tempor incididunt</p>
+                              </div>
+                              <div class="col-md-6">
+                                <h4>Losing</h4>
+                                <p>1. Lorem ipsum dolor sit amet <br>
+                                   2. consectetur adipisicing elit <br>
+                                   3. sed do eiusmod tempor incididunt</p>
+                              </div>
+                            </div>
+                            <h3>Trending Ad Formats</h3>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <h4>Gaining</h4>
+                                <p>1. Lorem ipsum dolor sit amet <br>
+                                   2. consectetur adipisicing elit <br>
+                                   3. sed do eiusmod tempor incididunt</p>
+                              </div>
+                              <div class="col-md-6">
+                                <h4>Losing</h4>
+                                <p>1. Lorem ipsum dolor sit amet <br>
+                                   2. consectetur adipisicing elit <br>
+                                   3. sed do eiusmod tempor incididunt</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+
+                        <br>
 
                     <div class="col-sm-3 hide">
                       <section class="panel b-a">
