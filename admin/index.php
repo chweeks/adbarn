@@ -260,6 +260,7 @@
                       </section>
                     </div>
                   </div>
+
                   <div id="datepicker" class="row ">
                     <div class="col-lg-12 pull-right">
                       <button class="btn btn-flat btn-default pull-right" id="dashboard-range">
@@ -267,8 +268,9 @@
                         <span class="text-date"><?php echo date("F j, Y", strtotime('-30 day')); ?> - <?php echo date("F j, Y"); ?></span>
                         <b class="caret"></b>
                       </button>
-					</div>
+					          </div>
                   </div>
+                  
                   <section class="row m-b-md"></section>
                   <div class="row">
                     <div class="col-sm-12">
@@ -409,6 +411,111 @@
                         </div>
                       </div>
                     </div>
+
+                    <section class="row m-b-md"></section>
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <div class="panel borderfix">
+                          <div class="row m-n">
+                            <div class="col-md-3 b-b b-r">
+                              <a class="block padder-v">
+                                <span class="i-s i-s-2x pull-left m-r-sm">
+                                  <i class="i i-hexagon2 i-s-base text-orange hover-rotate"></i>
+                                  <i class="i i-users2 i-sm text-white"></i>
+                                </span>
+                                <span class="clear">
+                                  <span class="h3 block m-t-xs text-orange">xx</span>
+                                  <small class="text-muted text-u-c">total users</small>
+                                </span>
+                              </a>
+                            </div>
+                            <div class="col-md-3 b-b b-r">
+                              <a class="block padder-v">
+                                <span class="i-s i-s-2x pull-left m-r-sm">
+                                  <i class="i i-hexagon2 i-s-base text-info hover-rotate"></i>
+                                  <i class="i i-users2 i-sm text-white"></i>
+                                </span>
+                                <span class="clear">
+                                  <span class="h3 block m-t-xs text-info">XX</span>
+                                  <small class="text-muted text-u-c">inactive users</small>
+                                </span>
+                              </a>
+                            </div>
+                            <div class="col-md-3 b-b b-r">
+                              <a class="block padder-v">
+                                <span class="i-s i-s-2x pull-left m-r-sm">
+                                  <i class="i i-hexagon2 i-s-base text-primary hover-rotate"></i>
+                                  <i class="i i-users2 i-sm text-white"></i>
+                                </span>
+                                <span class="clear">
+                                  <span class="h3 block m-t-xs text-primary">XX</span>
+                                  <small class="text-muted text-u-c">new users</small>
+                                </span>
+                              </a>
+                            </div>
+                            <div class="col-md-3 b-b b-r">
+                              <a class="block padder-v">
+                                <span class="i-s i-s-2x pull-left m-r-sm">
+                                  <i class="i i-hexagon2 i-s-base text-success-lt hover-rotate"></i>
+                                  <i class="i i-dsc i-sm text-white"></i>
+                                </span>
+                                <span class="clear">
+                                  <span class="h3 block m-t-xs text-success-lt">XX</span>
+                                  <small class="text-muted text-u-c">lost users</small>
+                                </span>
+                              </a>
+                            </div>
+                            <div class="col-md-3 b-b b-r">
+                              <a class="block padder-v">
+                                <span class="i-s i-s-2x pull-left m-r-sm">
+                                  <i class="i i-hexagon2 i-s-base text-orange hover-rotate"></i>
+                                  <i class="i i-graph i-sm text-white"></i>
+                                </span>
+                                <span class="clear">
+                                  <span class="h3 block m-t-xs text-orange">XX</span>
+                                  <small class="text-muted text-u-c">new affiliate referals</small>
+                                </span>
+                              </a>
+                            </div>
+                            <div class="col-md-3 b-b b-r">
+                              <a class="block padder-v">
+                                <span class="i-s i-s-2x pull-left m-r-sm">
+                                  <i class="i i-hexagon2 i-s-base text-info hover-rotate"></i>
+                                  <i class="i i-users2 i-sm text-white"></i>
+                                </span>
+                                <span class="clear">
+                                  <span class="h3 block m-t-xs text-info">XX</span>
+                                  <small class="text-muted text-u-c">total active affiliators</small>
+                                </span>
+                              </a>
+                            </div>
+                            <div class="col-md-3 b-b b-r">
+                              <a class="block padder-v">
+                                <span class="i-s i-s-2x pull-left m-r-sm">
+                                  <i class="i i-hexagon2 i-s-base text-primary hover-rotate"></i>
+                                  <i class="i i-graph i-sm text-white"></i>
+                                </span>
+                                <span class="clear">
+                                  <span class="h3 block m-t-xs text-primary">XX</span>
+                                  <small class="text-muted text-u-c">pro-active affiliators</small>
+                                </span>
+                              </a>
+                            </div>
+                            <div class="col-md-3 b-b b-r">
+                              <a class="block padder-v">
+                                <span class="i-s i-s-2x pull-left m-r-sm">
+                                  <i class="i i-hexagon2 i-s-base text-success-lt hover-rotate"></i>
+                                  <i class="i i-dsc i-sm text-white"></i>
+                                </span>
+                                <span class="clear">
+                                  <span class="h3 block m-t-xs text-success-lt">XX</span>
+                                  <small class="text-muted text-u-c">lost <br>affiliators</small>
+                                </span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
 
                     <div class="col-sm-3 hide">
                       <section class="panel b-a">
