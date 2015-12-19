@@ -529,13 +529,13 @@
 
                         <br>
 
-                      <section class="row m-l-none m-r-none m-b text-center bg-white panel b-a">
+
                       <div class="container">
                         <ul class="nav nav-tabs nav-justified">
                           <li class="active"><a data-toggle="tab" href="#top">Top</a></li>
                           <li><a data-toggle="tab" href="#trending">Trending</a></li>
                         </ul>
-
+                        <section class="row m-l-none m-r-none m-b text-center bg-white panel b-a">
                         <div class="tab-content">
                           <div id="top" class="tab-pane fade in active">
                             <h3>Top Users</h3>
