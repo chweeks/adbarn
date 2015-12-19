@@ -370,6 +370,42 @@
                               </span>
                             </a>
                           </div>
+                          <div class="col-md-3 b-b b-r">
+                            <a class="block padder-v">
+                              <span class="i-s i-s-2x pull-left m-r-sm">
+                                <i class="i i-hexagon2 i-s-base text-orange hover-rotate"></i>
+                                <i class="i i-dsc i-sm text-white"></i>
+                              </span>
+                              <span class="clear">
+                                <span class="h3 block m-t-xs text-orange">XX</span>
+                                <small class="text-muted text-u-c">Placement delta</small>
+                              </span>
+                            </a>
+                          </div>
+                          <div class="col-md-3 b-b b-r">
+                            <a class="block padder-v">
+                              <span class="i-s i-s-2x pull-left m-r-sm">
+                                <i class="i i-hexagon2 i-s-base text-info hover-rotate"></i>
+                                <i class="i i-graph i-sm text-white"></i>
+                              </span>
+                              <span class="clear">
+                                <span class="h3 block m-t-xs text-info">XX</span>
+                                <small class="text-muted text-u-c">RPM delta%</small>
+                              </span>
+                            </a>
+                          </div>
+                          <div class="col-md-3 b-b b-r">
+                            <a class="block padder-v">
+                              <span class="i-s i-s-2x pull-left m-r-sm">
+                                <i class="i i-hexagon2 i-s-base text-primary hover-rotate"></i>
+                                <i class="i i-dsc i-sm text-white"></i>
+                              </span>
+                              <span class="clear">
+                                <span class="h3 block m-t-xs text-primary">XX</span>
+                                <small class="text-muted text-u-c">No. of open tickets</small>
+                              </span>
+                            </a>
+                          </div>
                         </div>
                       </div>
                     </div>
