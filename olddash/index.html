@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+
+    <title>AdBarn</title>
+
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/site.css" rel="stylesheet">
+    <link href="../css/font-awesome.css" rel="stylesheet">
+    <link href="../js/picker/buttons.css" rel="stylesheet">
+    <link href="../js/picker/daterangepicker-bs3.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600italic,600,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body class="dash">
+
+    <header>
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-2">
+            <a href="index.html" class="pull-left">
+              <img class="logo" src="../img/adbarn-logo.png">
+            </a>
+          </div>
+
+          <div class="col-md-7 col-md-offset-1">
+            <h2 class="content-title pull-left">Overview</h2>
+          </div>
+
+          <div class="col-md-2 btn-add-placement-container">
+            <a class="pull-right btn btn-primary btn-lg btn-add-placement" href="add_placement.html"><i class="fa fa-plus"></i>Add Placement</a>
+          </div>
+
+      </div>
+
+      </div>
+    </header>
+
+    <section class="main">
+      <div class="container">
+        <div class="row">
+          <aside class="col-md-2 tc">
+            <nav>
+              <ul>
+                <li>
+                  <a href="index.html" class="active">Overview</a>
+                  <a href="earnings.html">Earnings</a>
+                  <a href="placements.html">Placements</a>
+                  <a href="affiliate.html">Affiliate</a>
+                  <a href="payments.html">Payments</a>
+                  <a href="status.html">Status</a>
+                  <a href="support.html" class="support-link">
+                    Support
+                    <span>2</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+
+            <button class="btn btn-main"><i class="fa fa-cog fa-2x"></i></button>
+            <button class="btn btn-main"><i class="fa fa-sign-out fa-2x"></i></button>
+          </aside>
+
+          <section class="col-md-9 col-md-offset-1 content">
+
+            <div class="col-md-4">
+              <strong class="period-word">Today</strong>
+              <a href="#today">
+                <div class="period selected">
+                  <div class="box">
+                    <div class="raise">
+                      <i class="fa fa-sort-up"></i>
+                      <span>+3%</span>
+                    </div>
+                    <h2 class="total">$84.02</h2>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-md-4">
+              <strong class="period-word">Yesterday</strong>
+              <a href="#yesterday">
+                <div class="period">
+                  <div class="box">
+                    <div class="raise">
+                      <i class="fa fa-sort-down"></i>
+                      <span>-33%</span>
+                    </div>
+                    <h2 class="total">$120.05</h2>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-md-4">
+              <strong class="period-word">Month</strong>
+              <a href="#month">
+                <div class="period">
+                  <div class="box">
+                    <div class="raise">
+                      <i class="fa fa-sort-up"></i>
+                      <span>+17%</span>
+                    </div>
+                    <h2 class="total">$680.19</h2>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-md-12" id="today">
+              <div class="period-content">
+                <div class="pull-right">
+                  <!-- <option>March 27, 2014 - March 27, 2014</option> -->
+                  <!-- <button class="btn btn-flat btn-default" id="dashboard-range">
+                      <span class="icon ion-ios7-calendar-outline"></span>
+                      <span class="text-date">Oct 30, 2013 - Nov 29, 2013</span> 
+                      <b class="caret"></b>
+                  </button> -->
+                  <div id="reportrange2" class="btn" style="display: inline-block; background: #fff; cursor: pointer; padding: 5px 10px; border: 1px solid #ccc">
+                    <i class="glyphicon glyphicon-calendar fa fa-calendar"></i>
+                    <span></span> <b class="caret"></b>
+                  </div>
+                </div>
+                <!-- <strong >Today</strong> -->
+                <div class="clearfix"></div>
+                <table class="table table-bordered">
+                  <tr>  
+                    <th colspan="2">
+                      <i class="fa fa-globe"></i>
+                      Today Overview
+                    </th>
+                  </tr>     
+                  <tr>
+                    <td>Impressions <span class="value">30,144</span></td>
+                    <td>Conversions <span class="value">64</span></td>
+                  </tr>
+                  <tr>
+                    <td>Clicks <span class="value">849</span></td>
+                    <td>CTR <span class="value">2.14%</span></td>
+                  </tr>
+                  <tr>
+                    <td>RPM <span class="value">$0.36</span></td>
+                    <td>Revenue <span class="value">$59.88</span></td>
+                  </tr>
+                  <tr>
+                    <td>Affiliate Referrals <span class="value">3</span></td>
+                    <td>Affiliate Revenue <span class="value">$24.14</span></td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+
+            <div class="col-md-12" id="yesterday">
+              y
+            </div>
+            <div class="col-md-12" id="month">
+              m
+            </div>
+
+            <div class="col-md-12">
+              <div class="large-box geo-chart">
+                <div class="header">
+                  <i class="fa fa-globe"></i>
+                  Geo Chart
+                </div>
+                <div class="content">
+                  <img src="../img/map.png" class="img-responsive">
+                </div>
+              </div>
+            </div>
+
+          </section>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.js"></script>
+    <script type="text/javascript" src="../js/custom.js"></script>
+    <script type="text/javascript" src="../js/picker/moment.js"></script>
+    <script type="text/javascript" src="../js/picker/daterangepicker.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('#reportrange2 span').html(moment().subtract('days', 29).format('MMMM D, YYYY') + ' - ' + moment().format('MMMM D, YYYY'));
+        $('#reportrange2').daterangepicker(
+            {
+              ranges: {
+                 'Today': [moment(), moment()],
+                 'Yesterday': [moment().subtract('days', 1), moment().subtract('days', 1)],
+                 'Last 7 Days': [moment().subtract('days', 6), moment()],
+                 'Last 30 Days': [moment().subtract('days', 29), moment()],
+                 'This Month': [moment().startOf('month'), moment().endOf('month')],
+                 'Last Month': [moment().subtract('month', 1).startOf('month'), moment().subtract('month', 1).endOf('month')]
+              },
+              startDate: moment().subtract('days', 6),
+              endDate: moment(),
+              opens: "left"
+            }
+        );
+      }); 
+    </script>
+  </body>
+</html>
