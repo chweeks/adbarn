@@ -37,13 +37,16 @@
           <i class="fa fa-tachometer fa-5x"></i>
           <h3>Optimized for Humans</h3>
           <p>We work damn hard so you will get more:
-              Advanced ad formats, cutting edge yield optimizers, global coverage, 100% fill rate and much more
+              Advanced ad formats, cutting edge yield optimizers,
+              global coverage, 100% fill rate and much more
           </p>
         </div>
         <div class="col-md-4">
           <i class="fa fa-users fa-5x"></i>
           <h3>Spread the Love </h3>
-          <p>We work together with our community and reward contribution, take part in our affiliate program, help translating AB to your language, spread the word</p>
+          <p>We work together with our community and reward contribution,
+            take part in our affiliate program, help translating AB to your language,
+            spread the word</p>
         </div>
       </div>
     </div>

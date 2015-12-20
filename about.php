@@ -8,7 +8,13 @@
             <hr>
             <div class="well well-md">
               <p>
-                Adbarn is publisher-centric. We harness next generation technologies and disruptive business models in order to offer maximal value to our publishers. We dominate in delivering value to our publishers by getting them awesome revenue at practically zero hassle. Simply put, our publishers can focus on developing their sites and bring in more traffic while we have their back.
+                Adbarn is publisher-centric. We harness next generation
+                technologies and disruptive business models in order to
+                offer maximal value to our publishers. We dominate in
+                delivering value to our publishers by getting them awesome
+                revenue at practically zero hassle. Simply put, our publishers
+                can focus on developing their sites and bring in more traffic
+                while we have their back.
               </p>
               <div class="col-md-4 tc about-features">
                 <i class="fa fa-wrench"></i>
