@@ -1,37 +1,37 @@
 <?php
 
-$mysqli = new mysqli("127.0.0.1", "wau", "d9rk3KWU59dIq1", "adbarn", 3306);
-if ($mysqli->connect_errno) {
-    echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
-}
-
-if(isset($_COOKIE['user'])) {
-	$cookie = explode('-', $_COOKIE['user']);
-	$userid = $cookie[0];
-	if(is_numeric($userid)) {
-		$hash = $mysqli->real_escape_string($cookie[1]);
-		$query = $mysqli->query("SELECT * FROM users WHERE id='$userid'");
-		if($myrow = $query->fetch_assoc()) {
-			if($hash==sha1($myrow['password'])) {
-				//all good, stay here
-				$username = $myrow['email'];
-			} else {
-				logoutUser();
-			}
-		} else {
-			logoutUser();
-		}
-	} else {
-		logoutUser();
-	}
-} else {
-	logoutUser();
-}
-
-function logoutUser() {
-	header("Location: /logout.php");
-	exit();
-}
+// $mysqli = new mysqli("127.0.0.1", "wau", "d9rk3KWU59dIq1", "adbarn", 3306);
+// if ($mysqli->connect_errno) {
+//     echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
+// }
+//
+// if(isset($_COOKIE['user'])) {
+// 	$cookie = explode('-', $_COOKIE['user']);
+// 	$userid = $cookie[0];
+// 	if(is_numeric($userid)) {
+// 		$hash = $mysqli->real_escape_string($cookie[1]);
+// 		$query = $mysqli->query("SELECT * FROM users WHERE id='$userid'");
+// 		if($myrow = $query->fetch_assoc()) {
+// 			if($hash==sha1($myrow['password'])) {
+// 				//all good, stay here
+// 				$username = $myrow['email'];
+// 			} else {
+// 				logoutUser();
+// 			}
+// 		} else {
+// 			logoutUser();
+// 		}
+// 	} else {
+// 		logoutUser();
+// 	}
+// } else {
+// 	logoutUser();
+// }
+//
+// function logoutUser() {
+// 	header("Location: /logout.php");
+// 	exit();
+// }
 
 
 ?>
@@ -155,9 +155,7 @@ function logoutUser() {
           <section class="vbox">
             <section class="w-f scrollable">
               <div class=" " data-height="auto" data-disable-fade-out="true" data-distance="0" data-size="10px" data-railOpacity="0.2">
-
-
-
+                
                 <!-- nav -->
                 <nav class="nav-primary hidden-xs">
                   <section class="row m-b-md"></section>
@@ -529,7 +527,6 @@ function logoutUser() {
                     </div>
 
                       <br>
-
 
                     <div class="container">
                       <ul class="nav nav-tabs nav-justified">
