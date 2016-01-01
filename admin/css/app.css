@@ -977,7 +977,7 @@ body.container {
     line-height: 60px;
   }
   .header-md .navbar-brand img {
-    
+
   }
   .header-md .navbar-nav > li > a {
     padding: 20px;
@@ -2991,7 +2991,7 @@ fieldset[disabled] .btn-dark.active {
 }
 .padder {
   padding-left: 15px;
-  padding-right: 15px;
+  padding-right: 0px;
 }
 .padder-v {
   padding-top: 15px;
@@ -3567,11 +3567,16 @@ fieldset[disabled] .i-checks input + i:before {
 }
 
 @media (max-width: 767px) {
-	
+
 	.col-xs-4 {
 		float:none;
 		width:100%;
 	}
-	
-	
+
+
+}
+
+#noPadding{
+  padding-left: 0px;
+  padding-right: 0px;
 }

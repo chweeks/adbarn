@@ -1,37 +1,37 @@
 <?php
 
-$mysqli = new mysqli("127.0.0.1", "wau", "d9rk3KWU59dIq1", "adbarn", 3306);
-if ($mysqli->connect_errno) {
-    echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
-}
-
-if(isset($_COOKIE['user'])) {
-	$cookie = explode('-', $_COOKIE['user']);
-	$userid = $cookie[0];
-	if(is_numeric($userid)) {
-		$hash = $mysqli->real_escape_string($cookie[1]);
-		$query = $mysqli->query("SELECT * FROM users WHERE id='$userid'");
-		if($myrow = $query->fetch_assoc()) {
-			if($hash==sha1($myrow['password'])) {
-				//all good, stay here
-				$username = $myrow['email'];
-			} else {
-				logoutUser();
-			}
-		} else {
-			logoutUser();
-		}
-	} else {
-		logoutUser();
-	}
-} else {
-	logoutUser();
-}
-
-function logoutUser() {
-	header("Location: /logout.php");
-	exit();
-}
+// $mysqli = new mysqli("127.0.0.1", "wau", "d9rk3KWU59dIq1", "adbarn", 3306);
+// if ($mysqli->connect_errno) {
+//     echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
+// }
+//
+// if(isset($_COOKIE['user'])) {
+// 	$cookie = explode('-', $_COOKIE['user']);
+// 	$userid = $cookie[0];
+// 	if(is_numeric($userid)) {
+// 		$hash = $mysqli->real_escape_string($cookie[1]);
+// 		$query = $mysqli->query("SELECT * FROM users WHERE id='$userid'");
+// 		if($myrow = $query->fetch_assoc()) {
+// 			if($hash==sha1($myrow['password'])) {
+// 				//all good, stay here
+// 				$username = $myrow['email'];
+// 			} else {
+// 				logoutUser();
+// 			}
+// 		} else {
+// 			logoutUser();
+// 		}
+// 	} else {
+// 		logoutUser();
+// 	}
+// } else {
+// 	logoutUser();
+// }
+//
+// function logoutUser() {
+// 	header("Location: /logout.php");
+// 	exit();
+// }
 
 ?>
 <!DOCTYPE html>
@@ -258,7 +258,7 @@ function logoutUser() {
                     </div>
                   </div>
 
-                  <div id="datepicker" class="row ">
+                  <div id="datepicker" class="row">
                     <div class="col-lg-12 pull-right">
                       <button class="btn btn-flat btn-default pull-right" id="dashboard-range">
                         <span class="icon ion-ios7-calendar-outline"></span>
@@ -514,202 +514,206 @@ function logoutUser() {
                         </div>
                       </div>
                     </div>
+                  </div>
 
-                    <div id="datepicker" class="row ">
-                      <div class="col-lg-12 pull-right">
-                        <button class="btn btn-flat btn-default pull-right" id="dashboard-range">
-                          <span class="icon ion-ios7-calendar-outline"></span>
-                          <span class="text-date"><?php echo date("F j, Y", strtotime('-30 day')); ?> - <?php echo date("F j, Y"); ?></span>
-                          <b class="caret"></b>
-                        </button>
-                      </div>
+                  <div id="datepicker" class="row">
+                    <div class="col-lg-12 pull-right">
+                      <button class="btn btn-flat btn-default pull-right" id="dashboard-range">
+                        <span class="icon ion-ios7-calendar-outline"></span>
+                        <span class="text-date"><?php echo date("F j, Y", strtotime('-30 day')); ?> - <?php echo date("F j, Y"); ?></span>
+                        <b class="caret"></b>
+                      </button>
                     </div>
+                  </div>
 
-                      <br>
+                    <br>
 
-                    <div class="container">
-                      <ul class="nav nav-tabs nav-justified">
-                        <li class="active"><a data-toggle="tab" href="#top">Top</a></li>
-                        <li><a data-toggle="tab" href="#trending">Trending</a></li>
-                      </ul>
-                      <section class="row m-l-none m-r-none m-b text-center bg-white panel b-a">
-                      <div class="tab-content">
-                        <div id="top" class="tab-pane fade in active">
-                          <h3>Top Users</h3>
-                          <div class="row">
-                            <div class="col-md-6">
-                              <h4>Revenue</h4>
-                              <p>1. Lorem ipsum dolor sit amet <br>
-                                 2. consectetur adipisicing elit <br>
-                                 3. sed do eiusmod tempor incididunt <br>
-                                 4. ut labore et dolore magna aliqua.<br>
-                                 5. Ut enim ad minim veniam, quis<br>
-                                 7. nostrud exercitation ullamco <br>
-                                 8. laboris nisi ut aliquip ex<br>
-                                 9. ea commodo consequat. Duis aute<br>
-                                 10. irure dolor in reprehenderit in</p>
-                            </div>
-                            <div class="col-md-6">
-                              <h4>Ad Requests</h4>
-                              <p>1. Lorem ipsum dolor sit amet <br>
-                                 2. consectetur adipisicing elit <br>
-                                 3. sed do eiusmod tempor incididunt <br>
-                                 4. ut labore et dolore magna aliqua.<br>
-                                 5. Ut enim ad minim veniam, quis<br>
-                                 7. nostrud exercitation ullamco <br>
-                                 8. laboris nisi ut aliquip ex<br>
-                                 9. ea commodo consequat. Duis aute<br>
-                                 10. irure dolor in reprehenderit in</p>
-                            </div>
+                  <div class="col-lg-12" id="noPadding">
+                    <ul class="nav nav-tabs nav-justified">
+                      <li class="active"><a data-toggle="tab" href="#top">Top</a></li>
+                      <li><a data-toggle="tab" href="#trending">Trending</a></li>
+                    </ul>
+                    <section class="row m-l-none m-r-none m-b text-center bg-white panel b-a">
+                    <div class="tab-content">
+                      <div id="top" class="tab-pane fade in active">
+                        <h3>Top Users</h3>
+                        <div class="row">
+                          <div class="col-md-6">
+                            <h4>Revenue</h4>
+                            <p>1. Lorem ipsum dolor sit amet <br>
+                               2. consectetur adipisicing elit <br>
+                               3. sed do eiusmod tempor incididunt <br>
+                               4. ut labore et dolore magna aliqua.<br>
+                               5. Ut enim ad minim veniam, quis<br>
+                               7. nostrud exercitation ullamco <br>
+                               8. laboris nisi ut aliquip ex<br>
+                               9. ea commodo consequat. Duis aute<br>
+                               10. irure dolor in reprehenderit in</p>
                           </div>
-                          <h3>Top Affiliators</h3>
-                          <div class="row">
-                            <div class="col-md-6">
-                              <h4>Revenue</h4>
-                              <p>1. Lorem ipsum dolor sit amet <br>
-                                 2. consectetur adipisicing elit <br>
-                                 3. sed do eiusmod tempor incididunt <br>
-                                 4. ut labore et dolore magna aliqua.<br>
-                                 5. Ut enim ad minim veniam, quis<br>
-                                 7. nostrud exercitation ullamco <br>
-                                 8. laboris nisi ut aliquip ex<br>
-                                 9. ea commodo consequat. Duis aute<br>
-                                 10. irure dolor in reprehenderit in</p>
-                            </div>
-                            <div class="col-md-6">
-                              <h4>No. of Referrals</h4>
-                              <p>1. Lorem ipsum dolor sit amet <br>
-                                 2. consectetur adipisicing elit <br>
-                                 3. sed do eiusmod tempor incididunt <br>
-                                 4. ut labore et dolore magna aliqua.<br>
-                                 5. Ut enim ad minim veniam, quis<br>
-                                 7. nostrud exercitation ullamco <br>
-                                 8. laboris nisi ut aliquip ex<br>
-                                 9. ea commodo consequat. Duis aute<br>
-                                 10. irure dolor in reprehenderit in</p>
-                            </div>
-                          </div>
-                          <div class="row">
-                            <div class="col-md-6">
-                              <h3>Top Monetization Partners</h4>
-                                <p>1. Lorem ipsum dolor sit amet <br>
-                                   2. consectetur adipisicing elit <br>
-                                   3. sed do eiusmod tempor incididunt <br>
-                                   4. ut labore et dolore magna aliqua.<br>
-                                   5. Ut enim ad minim veniam, quis<br>
-                                   7. nostrud exercitation ullamco <br>
-                                   8. laboris nisi ut aliquip ex<br>
-                                   9. ea commodo consequat. Duis aute<br>
-                                   10. irure dolor in reprehenderit in</p>
-                            </div>
+                          <div class="col-md-6">
+                            <h4>Ad Requests</h4>
+                            <p>1. Lorem ipsum dolor sit amet <br>
+                               2. consectetur adipisicing elit <br>
+                               3. sed do eiusmod tempor incididunt <br>
+                               4. ut labore et dolore magna aliqua.<br>
+                               5. Ut enim ad minim veniam, quis<br>
+                               7. nostrud exercitation ullamco <br>
+                               8. laboris nisi ut aliquip ex<br>
+                               9. ea commodo consequat. Duis aute<br>
+                               10. irure dolor in reprehenderit in</p>
                           </div>
                         </div>
-
-                        <div id="trending" class="tab-pane fade">
-                          <h3>Trending Countries</h3>
-                          <div class="row">
-                            <div class="col-md-6">
-                              <h4>Gaining</h4>
-                              <p>1. Lorem ipsum dolor sit amet <br>
-                                 2. consectetur adipisicing elit <br>
-                                 3. sed do eiusmod tempor incididunt</p>
-                            </div>
-                            <div class="col-md-6">
-                              <h4>Losing</h4>
-                              <p>1. Lorem ipsum dolor sit amet <br>
-                                 2. consectetur adipisicing elit <br>
-                                 3. sed do eiusmod tempor incididunt</p>
-                            </div>
+                        <h3>Top Affiliators</h3>
+                        <div class="row">
+                          <div class="col-md-6">
+                            <h4>Revenue</h4>
+                            <p>1. Lorem ipsum dolor sit amet <br>
+                               2. consectetur adipisicing elit <br>
+                               3. sed do eiusmod tempor incididunt <br>
+                               4. ut labore et dolore magna aliqua.<br>
+                               5. Ut enim ad minim veniam, quis<br>
+                               7. nostrud exercitation ullamco <br>
+                               8. laboris nisi ut aliquip ex<br>
+                               9. ea commodo consequat. Duis aute<br>
+                               10. irure dolor in reprehenderit in</p>
                           </div>
-                          <h3>Trending Ad Formats</h3>
-                          <div class="row">
-                            <div class="col-md-6">
-                              <h4>Gaining</h4>
+                          <div class="col-md-6">
+                            <h4>No. of Referrals</h4>
+                            <p>1. Lorem ipsum dolor sit amet <br>
+                               2. consectetur adipisicing elit <br>
+                               3. sed do eiusmod tempor incididunt <br>
+                               4. ut labore et dolore magna aliqua.<br>
+                               5. Ut enim ad minim veniam, quis<br>
+                               7. nostrud exercitation ullamco <br>
+                               8. laboris nisi ut aliquip ex<br>
+                               9. ea commodo consequat. Duis aute<br>
+                               10. irure dolor in reprehenderit in</p>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-6">
+                            <h3>Top Monetization Partners</h4>
                               <p>1. Lorem ipsum dolor sit amet <br>
                                  2. consectetur adipisicing elit <br>
-                                 3. sed do eiusmod tempor incididunt</p>
-                            </div>
-                            <div class="col-md-6">
-                              <h4>Losing</h4>
-                              <p>1. Lorem ipsum dolor sit amet <br>
-                                 2. consectetur adipisicing elit <br>
-                                 3. sed do eiusmod tempor incididunt</p>
-                            </div>
+                                 3. sed do eiusmod tempor incididunt <br>
+                                 4. ut labore et dolore magna aliqua.<br>
+                                 5. Ut enim ad minim veniam, quis<br>
+                                 7. nostrud exercitation ullamco <br>
+                                 8. laboris nisi ut aliquip ex<br>
+                                 9. ea commodo consequat. Duis aute<br>
+                                 10. irure dolor in reprehenderit in</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div id="trending" class="tab-pane fade">
+                        <h3>Trending Countries</h3>
+                        <div class="row">
+                          <div class="col-md-6">
+                            <h4>Gaining</h4>
+                            <p>1. Lorem ipsum dolor sit amet <br>
+                               2. consectetur adipisicing elit <br>
+                               3. sed do eiusmod tempor incididunt</p>
+                          </div>
+                          <div class="col-md-6">
+                            <h4>Losing</h4>
+                            <p>1. Lorem ipsum dolor sit amet <br>
+                               2. consectetur adipisicing elit <br>
+                               3. sed do eiusmod tempor incididunt</p>
+                          </div>
+                        </div>
+                        <h3>Trending Ad Formats</h3>
+                        <div class="row">
+                          <div class="col-md-6">
+                            <h4>Gaining</h4>
+                            <p>1. Lorem ipsum dolor sit amet <br>
+                               2. consectetur adipisicing elit <br>
+                               3. sed do eiusmod tempor incididunt</p>
+                          </div>
+                          <div class="col-md-6">
+                            <h4>Losing</h4>
+                            <p>1. Lorem ipsum dolor sit amet <br>
+                               2. consectetur adipisicing elit <br>
+                               3. sed do eiusmod tempor incididunt</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  </section>
+
+                  <br>
+
+                  <div class="col-sm-3 hide">
+                    <section class="panel b-a">
+                      <header class="panel-heading b-b b-light">
+                        <ul class="nav nav-pills pull-right">
+                          <li>
+                            <a href="ajax.pie.html" class="text-muted" data-bjax data-target="#b-c">
+                              <i class="i i-cycle"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="panel-toggle text-muted">
+                              <i class="i i-plus text-active"></i>
+                              <i class="i i-minus text"></i>
+                            </a>
+                          </li>
+                        </ul>
+                        Connection
+                      </header>
+                      <div class="panel-body text-center bg-light lter" id="b-c">
+                        <div class="easypiechart inline m-b m-t" data-percent="60" data-line-width="4" data-bar-Color="#23aa8c" data-track-Color="#c5d1da" data-color="#2a3844" data-scale-Color="false" data-size="120" data-line-cap='butt' data-animate="2000">
+                          <div>
+                            <span class="h2 m-l-sm step"></span>%
+                            <div class="text text-xs">completed</div>
                           </div>
                         </div>
                       </div>
                     </section>
-
-                    <br>
-
-                    <div class="col-sm-3 hide">
-                      <section class="panel b-a">
-                        <header class="panel-heading b-b b-light">
-                          <ul class="nav nav-pills pull-right">
-                            <li>
-                              <a href="ajax.pie.html" class="text-muted" data-bjax data-target="#b-c">
-                                <i class="i i-cycle"></i>
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#" class="panel-toggle text-muted">
-                                <i class="i i-plus text-active"></i>
-                                <i class="i i-minus text"></i>
-                              </a>
-                            </li>
-                          </ul>
-                          Connection
-                        </header>
-                        <div class="panel-body text-center bg-light lter" id="b-c">
-                          <div class="easypiechart inline m-b m-t" data-percent="60" data-line-width="4" data-bar-Color="#23aa8c" data-track-Color="#c5d1da" data-color="#2a3844" data-scale-Color="false" data-size="120" data-line-cap='butt' data-animate="2000">
-                            <div>
-                              <span class="h2 m-l-sm step"></span>%
-                              <div class="text text-xs">completed</div>
-                            </div>
-                          </div>
-                        </div>
-                      </section>
-                    </div>
                   </div>
-                  <div class="row">
-                      <div class="col-lg-12">
-                          <div class="panel b-a">
-                            <div class="panel-heading b-b">Map</div>
-                            <div class="panel-body">
-                              <p class="m-b-lg text-muted">Impressions... bla bla bla</p>
-                              <div class="row m-b-xl">
-                                <div class="col-sm-8">
-                                  <div id="world_map" style="height:240px;">
+                </div>
+                <div class="row">
+                  <div class="padder">
+                    <div class="col-lg-12">
+                        <div class="panel b-a">
+                          <div class="panel-heading b-b">Map</div>
+                          <div class="panel-body">
+                            <p class="m-b-lg text-muted">Impressions... bla bla bla</p>
+                            <div class="row m-b-xl">
+                              <div class="col-sm-8">
+                                <div id="world_map" style="height:240px;">
 
-                                  </div>
                                 </div>
-                                <div class="col-sm-4">
-                                  <div class="h4 m-b font-thin">Statistics</div>
-                                  <p>Internal administrative boundaries</p>
-                                  <div>
-                                    <div class="inline text-center">
-                                      <div class="easypiechart" data-percent="60" data-bar-color="#fcc633" data-line-width="4" data-loop="false" data-scale-color="#fff" data-rotate="0" data-size="100">
-                                        <div>
-                                          <span class="step">60</span>%
-                                        </div>
+                              </div>
+                              <div class="col-sm-4">
+                                <div class="h4 m-b font-thin">Statistics</div>
+                                <p>Internal administrative boundaries</p>
+                                <div>
+                                  <div class="inline text-center">
+                                    <div class="easypiechart" data-percent="60" data-bar-color="#fcc633" data-line-width="4" data-loop="false" data-scale-color="#fff" data-rotate="0" data-size="100">
+                                      <div>
+                                        <span class="step">60</span>%
                                       </div>
-                                      <p class="text-warning font-bold">data</p>
                                     </div>
-                                    <div class="inline text-center">
-                                      <div class="easypiechart" data-percent="35" data-bar-color="#177bbb" data-line-width="4" data-loop="false" data-scale-color="#fff" data-rotate="0" data-size="100">
-                                        <div>
-                                          <span class="step">35</span>%
-                                        </div>
+                                    <p class="text-warning font-bold">data</p>
+                                  </div>
+                                  <div class="inline text-center">
+                                    <div class="easypiechart" data-percent="35" data-bar-color="#177bbb" data-line-width="4" data-loop="false" data-scale-color="#fff" data-rotate="0" data-size="100">
+                                      <div>
+                                        <span class="step">35</span>%
                                       </div>
-                                      <p class="text-primary font-bold">info</p>
                                     </div>
+                                    <p class="text-primary font-bold">info</p>
                                   </div>
                                 </div>
                               </div>
                             </div>
                           </div>
-                       </div>
-                    </div>
+                        </div>
+                     </div>
+                   </div>
+                  </div>
                 </section>
               </section>
             </section>

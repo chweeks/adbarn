@@ -37,17 +37,17 @@ function logoutUser() {
 ?>
 <!DOCTYPE html>
 <html lang="en" class=" ">
-<head>  
+<head>
   <meta charset="utf-8" />
   <title>Scale | Web Application</title>
   <meta name="description" content="app, web app, responsive, admin dashboard, admin, flat, flat ui, ui kit, off screen nav" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
   <link rel="stylesheet" href="css/animate.css" type="text/css" />
   <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
   <link rel="stylesheet" href="css/icon.css" type="text/css" />
   <link rel="stylesheet" href="css/font.css" type="text/css" />
-  <link rel="stylesheet" href="css/app.css" type="text/css" />  
+  <link rel="stylesheet" href="css/app.css" type="text/css" />
   <link rel="stylesheet" href="js/datatables/datatables.css" type="text/css"/>
 
   <link rel="stylesheet" href="js/daterangepicker/daterangepicker.css" type="text/css"/>
@@ -80,7 +80,7 @@ function logoutUser() {
           <i class="fa fa-cog"></i>
         </a>
       </div>
-      
+
       <ul class="nav navbar-nav navbar-right m-n hidden-xs nav-user user">
         <li class="hidden-xs">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -123,7 +123,7 @@ function logoutUser() {
             </span>
             <? echo $username; ?> <b class="caret"></b>
           </a>
-          <ul class="dropdown-menu animated fadeInRight">            
+          <ul class="dropdown-menu animated fadeInRight">
             <li>
               <span class="arrow top"></span>
               <a href="#">Settings</a>
@@ -146,19 +146,19 @@ function logoutUser() {
             </li>
           </ul>
         </li>
-      </ul>      
+      </ul>
     </header>
     <section>
       <section class="hbox stretch">
         <!-- .aside -->
-        <aside class="aside-md hidden-print" id="nav">          
+        <aside class="aside-md hidden-print" id="nav">
           <section class="vbox">
             <section class="w-f scrollable">
               <div class=" " data-height="auto" data-disable-fade-out="true" data-distance="0" data-size="10px" data-railOpacity="0.2">
-              
 
 
-                <!-- nav -->                 
+
+                <!-- nav -->
                 <nav class="nav-primary hidden-xs">
                   <section class="row m-b-md"></section>
                   <ul class="nav nav-main" data-ride="collapse">
@@ -207,7 +207,7 @@ function logoutUser() {
                     </li>
                   </ul>
                   <div class="line dk hidden-nav-xs"></div>
-                  
+
                 </nav>
                 <!-- / nav -->
               </div>
@@ -229,7 +229,7 @@ function logoutUser() {
           <section class="hbox stretch">
             <section>
               <section class="vbox">
-                <section class="padder">              
+                <section class="padder">
                   <section class="row m-b-md"></section>
                   <div class="row">
                   	<div class="col-lg-12">
@@ -264,7 +264,7 @@ function logoutUser() {
                     <div class="col-lg-12 pull-right">
                       <button class="btn btn-flat btn-default pull-right" id="dashboard-range">
                         <span class="icon ion-ios7-calendar-outline"></span>
-                        <span class="text-date"><?php echo date("F j, Y", strtotime('-30 day')); ?> - <?php echo date("F j, Y"); ?></span> 
+                        <span class="text-date"><?php echo date("F j, Y", strtotime('-30 day')); ?> - <?php echo date("F j, Y"); ?></span>
                         <b class="caret"></b>
                       </button>
 					</div>
@@ -373,7 +373,7 @@ function logoutUser() {
                         </div>
                       </div>
                     </div>
-                    
+
                     <div class="col-sm-3 hide">
                       <section class="panel b-a">
                         <header class="panel-heading b-b b-light">
@@ -400,20 +400,20 @@ function logoutUser() {
                             </div>
                           </div>
                         </div>
-                      </section>                      
+                      </section>
                     </div>
                   </div>
                   <div class="row">
-                      <div class="col-lg-12">    
+                      <div class="col-lg-12">
                           <div class="panel b-a">
                             <div class="panel-heading b-b">Map</div>
                             <div class="panel-body">
                               <p class="m-b-lg text-muted">Impressions... bla bla bla</p>
                               <div class="row m-b-xl">
-                                <div class="col-sm-8">                      
-                                  <div id="world_map" style="height:240px;">                        
-            
-                                  </div>                      
+                                <div class="col-sm-8">
+                                  <div id="world_map" style="height:240px;">
+
+                                  </div>
                                 </div>
                                 <div class="col-sm-4">
                                   <div class="h4 m-b font-thin">Statistics</div>
@@ -434,7 +434,7 @@ function logoutUser() {
                                         </div>
                                       </div>
                                       <p class="text-primary font-bold">info</p>
-                                    </div> 
+                                    </div>
                                   </div>
                                 </div>
                               </div>
@@ -445,20 +445,20 @@ function logoutUser() {
                 </section>
               </section>
             </section>
-            
+
           </section>
           <a href="#" class="hide nav-off-screen-block" data-toggle="class:nav-off-screen" data-target="#nav"></a>
         </section>
       </section>
     </section>
   </section>
-  
+
   <!-- Bootstrap -->
   <script src="js/bootstrap.js"></script>
   <!-- App -->
-  <script src="js/app.js"></script>  
+  <script src="js/app.js"></script>
   <script src="js/slimscroll/jquery.slimscroll.min.js"></script>
-  
+
   <script src="js/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
   <script src="js/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
   <script src="js/jvectormap/jquery-jvectormap-us-aea-en.js"></script>
@@ -467,15 +467,15 @@ function logoutUser() {
 
   <script src="js/sortable/jquery.sortable.js"></script>
   <script src="js/app.plugin.js"></script>
-  
+
   <script src="js/moment/moment.js"></script>
 
-  
+
   <script src="js/daterangepicker/daterangepicker.js"></script>
-  
+
   <script type="text/javascript">
     $(function () {
-        
+
         // date range picker
         $('#dashboard-range').daterangepicker(
             {
