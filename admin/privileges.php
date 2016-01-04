@@ -237,7 +237,26 @@
                   <div class="row">
                   	<div class="col-lg-12">
                       <section class="row m-l-none m-r-none m-b text-center bg-white panel b-a">
-                        <p>Hello</p>
+                        <h2>Set privileges</h2>
+                        <div>
+                          <form>
+                            Select employee:
+                            <select name="Employee">
+                              <option value="lorem">lorem</option>
+                              <option value="ipsum">ipsum</option>
+                              <option value="adhis">adhis</option>
+                              <option value="scripta">scripta</option>
+                            </select>
+                            Select privilege level:
+                            <select name="privilege">
+                              <option value="support">support</option>
+                              <option value="sales">sales</option>
+                              <option value="seniorStaff">senior staff</option>
+                              <option value="admin">administrator</option>
+                            </select>
+                            <input type="submit">
+                          </form>
+                        </div>
                       </section>
                     </div>
                   </div>
