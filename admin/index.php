@@ -198,6 +198,12 @@
                     </li>
                     <li >
                       <a href="#" class="auto">
+                        <i class="fa fa-users icon i-2x"></i>
+                        <span class="font-bold h4">Privileges</span>
+                      </a>
+                    </li>
+                    <li >
+                      <a href="#" class="auto">
                         <i class="i i-support icon i-2x"></i>
                         <span class="font-bold h4">Support</span>
                       </a>
