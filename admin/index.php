@@ -597,7 +597,7 @@
                           </div>
                         </div>
                         <div class="row">
-                          <div class="col-md-6">
+                          <div class="col-md-12">
                             <h3>Top Monetization Partners</h4>
                               <p>1. Lorem ipsum dolor sit amet <br>
                                  2. consectetur adipisicing elit <br>

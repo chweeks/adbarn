@@ -236,41 +236,21 @@
                 <section class="padder">
                   <div class="col-lg-12" id="noPadding">
                     <ul class="nav nav-tabs nav-justified">
-                      <h2>Ticket Queue</h2>
-                      <li class="active"><a data-toggle="tab" href="#top">Top</a></li>
-                      <li><a data-toggle="tab" href="#trending">Trending</a></li>
+                      <h2 style="text-align:center">Ticket Queue</h2>
+                      <li class="active"><a data-toggle="tab" href="#top">Most Recent</a></li>
+                      <li><a data-toggle="tab" href="#oldest">Oldest</a></li>
+                      <li><a data-toggle="tab" href="#lastPayment">Payment Size</a></li>
+                      <li><a data-toggle="tab" href="#avDailyRev">Daily Revenue</a></li>
+                      <li><a data-toggle="tab" href="#lifetimeValue">Lifetime Value</a></li>
+                      <li><a data-toggle="tab" href="#country">Country</a></li>
+                      <li><a data-toggle="tab" href="#ticketSubject">Ticket Subject</a></li>
                     </ul>
                     <section class="row m-l-none m-r-none m-b text-center bg-white panel b-a">
                     <div class="tab-content">
                       <div id="top" class="tab-pane fade in active">
-                        <h3>Top Users</h3>
                         <div class="row">
-                          <div class="col-md-6">
-                            <h4>Revenue</h4>
-                            <p>1. Lorem ipsum dolor sit amet <br>
-                               2. consectetur adipisicing elit <br>
-                               3. sed do eiusmod tempor incididunt <br>
-                            </p>
-                          </div>
-                          <div class="col-md-6">
-                            <h4>Ad Requests</h4>
-                            <p>1. Lorem ipsum dolor sit amet <br>
-                               2. consectetur adipisicing elit <br>
-                               3. sed do eiusmod tempor incididunt <br>
-                            </p>
-                          </div>
-                        </div>
-                        <h3>Top Affiliators</h3>
-                        <div class="row">
-                          <div class="col-md-6">
-                            <h4>Revenue</h4>
-                            <p>1. Lorem ipsum dolor sit amet <br>
-                               2. consectetur adipisicing elit <br>
-                               3. sed do eiusmod tempor incididunt <br>
-                            </p>
-                          </div>
-                          <div class="col-md-6">
-                            <h4>No. of Referrals</h4>
+                          <div class="col-md-12">
+                            <h4>Most Recent</h4>
                             <p>1. Lorem ipsum dolor sit amet <br>
                                2. consectetur adipisicing elit <br>
                                3. sed do eiusmod tempor incididunt <br>
@@ -279,38 +259,72 @@
                         </div>
                       </div>
 
-                      <div id="trending" class="tab-pane fade">
-                        <h3>Trending Countries</h3>
+                      <div id="oldest" class="tab-pane fade">
+                        <h4>Oldest Open Tickets</h4>
                         <div class="row">
-                          <div class="col-md-6">
-                            <h4>Gaining</h4>
-                            <p>1. Lorem ipsum dolor sit amet <br>
-                               2. consectetur adipisicing elit <br>
-                               3. sed do eiusmod tempor incididunt</p>
-                          </div>
-                          <div class="col-md-6">
-                            <h4>Losing</h4>
-                            <p>1. Lorem ipsum dolor sit amet <br>
-                               2. consectetur adipisicing elit <br>
-                               3. sed do eiusmod tempor incididunt</p>
-                          </div>
-                        </div>
-                        <h3>Trending Ad Formats</h3>
-                        <div class="row">
-                          <div class="col-md-6">
-                            <h4>Gaining</h4>
-                            <p>1. Lorem ipsum dolor sit amet <br>
-                               2. consectetur adipisicing elit <br>
-                               3. sed do eiusmod tempor incididunt</p>
-                          </div>
-                          <div class="col-md-6">
-                            <h4>Losing</h4>
+                          <div class="col-md-12">
                             <p>1. Lorem ipsum dolor sit amet <br>
                                2. consectetur adipisicing elit <br>
                                3. sed do eiusmod tempor incididunt</p>
                           </div>
                         </div>
                       </div>
+
+                      <div id="lastPayment" class="tab-pane fade">
+                        <h4>Last Payment Size</h4>
+                        <div class="row">
+                          <div class="col-md-12">
+                            <p>1. Lorem ipsum dolor sit amet <br>
+                               2. consectetur adipisicing elit <br>
+                               3. sed do eiusmod tempor incididunt</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div id="avDailyRev" class="tab-pane fade">
+                        <h4>Average Daily Revenue</h4>
+                        <div class="row">
+                          <div class="col-md-12">
+                            <p>1. Lorem ipsum dolor sit amet <br>
+                               2. consectetur adipisicing elit <br>
+                               3. sed do eiusmod tempor incididunt</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div id="lifetimeValue" class="tab-pane fade">
+                        <h4>Lifetime Value</h4>
+                        <div class="row">
+                          <div class="col-md-12">
+                            <p>1. Lorem ipsum dolor sit amet <br>
+                               2. consectetur adipisicing elit <br>
+                               3. sed do eiusmod tempor incididunt</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div id="country" class="tab-pane fade">
+                        <h4>Country</h4>
+                        <div class="row">
+                          <div class="col-md-12">
+                            <p>1. Lorem ipsum dolor sit amet <br>
+                               2. consectetur adipisicing elit <br>
+                               3. sed do eiusmod tempor incididunt</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div id="ticketSubject" class="tab-pane fade">
+                        <h4>Ticket Subject</h4>
+                        <div class="row">
+                          <div class="col-md-12">
+                            <p>1. Lorem ipsum dolor sit amet <br>
+                               2. consectetur adipisicing elit <br>
+                               3. sed do eiusmod tempor incididunt</p>
+                          </div>
+                        </div>
+                      </div>
+
                     </div>
                   </div>
                 </section>
