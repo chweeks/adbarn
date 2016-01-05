@@ -160,50 +160,26 @@
                   <section class="row m-b-md"></section>
                   <ul class="nav nav-main" data-ride="collapse">
                     <li class="active bg-white">
-                      <a href="index.html" class="auto">
+                      <a href="/admin/index.php" class="auto">
                         <i class="i i-statistics icon i-2x">
                         </i>
                         <span class="font-bold h4 selected">Dashboard</span>
                       </a>
                     </li>
-                    <li >
-                      <a href="#" class="auto">
-                        <i class="fa fa-dollar icon i-2x"></i>
-                        <span class="font-bold h4">Earnings</span>
-                      </a>
-                    </li>
-                    <li >
-                      <a href="#" class="auto">
-                        <i class="fa fa-tags icon i-2x"></i>
-                        <span class="font-bold h4">Placements</span>
-                      </a>
-                    </li>
-                    <li >
-                      <a href="#" class="auto">
-                        <i class="fa fa-users icon i-2x"></i>
-                        <span class="font-bold h4">Affiliates</span>
-                      </a>
-                    </li>
-                    <li >
-                      <a href="#" class="auto">
-                        <i class="fa fa-money icon i-2x"></i>
-                        <span class="font-bold h4">Payments</span>
-                      </a>
-                    </li>
-                    <li >
+                    <li>
                       <a href="#" class="auto">
                         <i class="fa fa-warning icon i-2x"></i>
-                        <span class="font-bold h4">Status</span>
+                        <span class="font-bold h4">Automated Emails</span>
                       </a>
                     </li>
-                    <li >
-                      <a href="#" class="auto">
+                    <li>
+                      <a href="admin/privileges.php" class="auto">
                         <i class="fa fa-users icon i-2x"></i>
                         <span class="font-bold h4">Privileges</span>
                       </a>
                     </li>
-                    <li >
-                      <a href="#" class="auto">
+                    <li>
+                      <a href="/admin/support.php" class="auto">
                         <i class="i i-support icon i-2x"></i>
                         <span class="font-bold h4">Support</span>
                       </a>

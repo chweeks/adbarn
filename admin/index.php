@@ -41,21 +41,21 @@
   <title>Scale | Web Application</title>
   <meta name="description" content="app, web app, responsive, admin dashboard, admin, flat, flat ui, ui kit, off screen nav" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-  <link rel="stylesheet" href="admin/css/bootstrap.css" type="text/css" />
-  <link rel="stylesheet" href="admin/css/animate.css" type="text/css" />
-  <link rel="stylesheet" href="admin/css/font-awesome.min.css" type="text/css" />
-  <link rel="stylesheet" href="admin/css/icon.css" type="text/css" />
-  <link rel="stylesheet" href="admin/css/font.css" type="text/css" />
-  <link rel="stylesheet" href="admin/css/app.css" type="text/css" />
-  <link rel="stylesheet" href="admin/js/datatables/datatables.css" type="text/css"/>
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+  <link rel="stylesheet" href="css/animate.css" type="text/css" />
+  <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+  <link rel="stylesheet" href="css/icon.css" type="text/css" />
+  <link rel="stylesheet" href="css/font.css" type="text/css" />
+  <link rel="stylesheet" href="css/app.css" type="text/css" />
+  <link rel="stylesheet" href="js/datatables/datatables.css" type="text/css"/>
 
-  <link rel="stylesheet" href="admin/js/daterangepicker/daterangepicker.css" type="text/css"/>
+  <link rel="stylesheet" href="js/daterangepicker/daterangepicker.css" type="text/css"/>
   <!--[if lt IE 9]>
     <script src="js/ie/html5shiv.js"></script>
     <script src="js/ie/respond.min.js"></script>
     <script src="js/ie/excanvas.js"></script>
   <![endif]-->
-  <script src="admin/js/jquery.min.js"></script>
+  <script src="js/jquery.min.js"></script>
   <style>
   .range_inputs button {
 	  width:74px;
@@ -94,7 +94,7 @@
               <div class="list-group list-group-alt">
                 <a href="#" class="media list-group-item">
                   <span class="pull-left thumb-sm">
-                    <img src="admin/images/a0.png" alt="..." class="img-circle">
+                    <img src="images/a0.png" alt="..." class="img-circle">
                   </span>
                   <span class="media-body block m-b-none">
                     Use awesome animate.css<br>
@@ -118,7 +118,7 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
             <span class="thumb-sm avatar pull-left">
-              <img src="admin/images/a0.png" alt="...">
+              <img src="images/a0.png" alt="...">
             </span>
             <? echo $username; ?> <b class="caret"></b>
           </a>
@@ -160,50 +160,26 @@
                   <section class="row m-b-md"></section>
                   <ul class="nav nav-main" data-ride="collapse">
                     <li class="active bg-white">
-                      <a href="index.html" class="auto">
+                      <a href="index.php" class="auto">
                         <i class="i i-statistics icon i-2x">
                         </i>
                         <span class="font-bold h4 selected">Dashboard</span>
                       </a>
                     </li>
-                    <li >
-                      <a href="#" class="auto">
-                        <i class="fa fa-dollar icon i-2x"></i>
-                        <span class="font-bold h4">Earnings</span>
-                      </a>
-                    </li>
-                    <li >
-                      <a href="#" class="auto">
-                        <i class="fa fa-tags icon i-2x"></i>
-                        <span class="font-bold h4">Placements</span>
-                      </a>
-                    </li>
-                    <li >
-                      <a href="#" class="auto">
-                        <i class="fa fa-users icon i-2x"></i>
-                        <span class="font-bold h4">Affiliates</span>
-                      </a>
-                    </li>
-                    <li >
-                      <a href="#" class="auto">
-                        <i class="fa fa-money icon i-2x"></i>
-                        <span class="font-bold h4">Payments</span>
-                      </a>
-                    </li>
-                    <li >
+                    <li>
                       <a href="#" class="auto">
                         <i class="fa fa-warning icon i-2x"></i>
-                        <span class="font-bold h4">Status</span>
+                        <span class="font-bold h4">Automated Emails</span>
                       </a>
                     </li>
-                    <li >
-                      <a href="#" class="auto">
+                    <li>
+                      <a href="/admin/privileges.php" class="auto">
                         <i class="fa fa-users icon i-2x"></i>
                         <span class="font-bold h4">Privileges</span>
                       </a>
                     </li>
-                    <li >
-                      <a href="#" class="auto">
+                    <li>
+                      <a href="/admin/support.php" class="auto">
                         <i class="i i-support icon i-2x"></i>
                         <span class="font-bold h4">Support</span>
                       </a>
@@ -732,24 +708,24 @@
   </section>
 
   <!-- Bootstrap -->
-  <script src="admin/js/bootstrap.js"></script>
+  <script src="js/bootstrap.js"></script>
   <!-- App -->
-  <script src="admin/js/app.js"></script>
-  <script src="admin/js/slimscroll/jquery.slimscroll.min.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/slimscroll/jquery.slimscroll.min.js"></script>
 
-  <script src="admin/js/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
-  <script src="admin/js/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
-  <script src="admin/js/jvectormap/jquery-jvectormap-us-aea-en.js"></script>
-  <script src="admin/js/jvectormap/demo.js"></script>
-
-
-  <script src="admin/js/sortable/jquery.sortable.js"></script>
-  <script src="admin/js/app.plugin.js"></script>
-
-  <script src="admin/js/moment/moment.js"></script>
+  <script src="js/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
+  <script src="js/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+  <script src="js/jvectormap/jquery-jvectormap-us-aea-en.js"></script>
+  <script src="js/jvectormap/demo.js"></script>
 
 
-  <script src="admin/js/daterangepicker/daterangepicker.js"></script>
+  <script src="js/sortable/jquery.sortable.js"></script>
+  <script src="js/app.plugin.js"></script>
+
+  <script src="js/moment/moment.js"></script>
+
+
+  <script src="js/daterangepicker/daterangepicker.js"></script>
 
   <script type="text/javascript">
     $(function () {
