@@ -251,9 +251,42 @@
                         <div class="row">
                           <div class="col-md-12">
                             <h4>Most Recent</h4>
-                            <p>1. Lorem ipsum dolor sit amet <br>
-                               2. consectetur adipisicing elit <br>
-                               3. sed do eiusmod tempor incididunt <br>
+                            <p>1. <strong>Ticket 1</strong>
+                              <span id="padLeft">
+                                <label class="checkbox-inline">
+                                  <input type="checkbox" id="inlineCheckbox1" value="support"> Resolved
+                                </label>
+                                <label class="checkbox-inline">
+                                  <input type="checkbox" id="inlineCheckbox2" value="sales"> Spam
+                                </label>
+                                <label class="checkbox-inline">
+                                  <input type="checkbox" id="inlineCheckbox3" value="seniorStaff"> Need further assistance
+                                </label>
+                              </span><br>
+                               2. <strong>Ticket 2</strong>
+                               <span id="padLeft">
+                                 <label class="checkbox-inline">
+                                   <input type="checkbox" id="inlineCheckbox1" value="support"> Resolved
+                                 </label>
+                                 <label class="checkbox-inline">
+                                   <input type="checkbox" id="inlineCheckbox2" value="sales"> Spam
+                                 </label>
+                                 <label class="checkbox-inline">
+                                   <input type="checkbox" id="inlineCheckbox3" value="seniorStaff"> Need further assistance
+                                 </label>
+                               </span><br>
+                               3. <strong>Ticket 3</strong>
+                               <span id="padLeft">
+                                 <label class="checkbox-inline">
+                                   <input type="checkbox" id="inlineCheckbox1" value="support"> Resolved
+                                 </label>
+                                 <label class="checkbox-inline">
+                                   <input type="checkbox" id="inlineCheckbox2" value="sales"> Spam
+                                 </label>
+                                 <label class="checkbox-inline">
+                                   <input type="checkbox" id="inlineCheckbox3" value="seniorStaff"> Need further assistance
+                                 </label>
+                               </span><br>
                             </p>
                           </div>
                         </div>
@@ -263,9 +296,43 @@
                         <h4>Oldest Open Tickets</h4>
                         <div class="row">
                           <div class="col-md-12">
-                            <p>1. Lorem ipsum dolor sit amet <br>
-                               2. consectetur adipisicing elit <br>
-                               3. sed do eiusmod tempor incididunt</p>
+                            <p>1. <strong>Ticket 1</strong>
+                              <span id="padLeft">
+                                <label class="checkbox-inline">
+                                  <input type="checkbox" id="inlineCheckbox1" value="support"> Resolved
+                                </label>
+                                <label class="checkbox-inline">
+                                  <input type="checkbox" id="inlineCheckbox2" value="sales"> Spam
+                                </label>
+                                <label class="checkbox-inline">
+                                  <input type="checkbox" id="inlineCheckbox3" value="seniorStaff"> Need further assistance
+                                </label>
+                              </span><br>
+                              2. <strong>Ticket 2</strong>
+                              <span id="padLeft">
+                               <label class="checkbox-inline">
+                                 <input type="checkbox" id="inlineCheckbox1" value="support"> Resolved
+                               </label>
+                               <label class="checkbox-inline">
+                                 <input type="checkbox" id="inlineCheckbox2" value="sales"> Spam
+                               </label>
+                               <label class="checkbox-inline">
+                                 <input type="checkbox" id="inlineCheckbox3" value="seniorStaff"> Need further assistance
+                               </label>
+                              </span><br>
+                              3. <strong>Ticket 3</strong>
+                              <span id="padLeft">
+                               <label class="checkbox-inline">
+                                 <input type="checkbox" id="inlineCheckbox1" value="support"> Resolved
+                               </label>
+                               <label class="checkbox-inline">
+                                 <input type="checkbox" id="inlineCheckbox2" value="sales"> Spam
+                               </label>
+                               <label class="checkbox-inline">
+                                 <input type="checkbox" id="inlineCheckbox3" value="seniorStaff"> Need further assistance
+                               </label>
+                              </span><br>
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -274,9 +341,43 @@
                         <h4>Last Payment Size</h4>
                         <div class="row">
                           <div class="col-md-12">
-                            <p>1. Lorem ipsum dolor sit amet <br>
-                               2. consectetur adipisicing elit <br>
-                               3. sed do eiusmod tempor incididunt</p>
+                            <p>1. <strong>Ticket 1</strong>
+                              <span id="padLeft">
+                                <label class="checkbox-inline">
+                                  <input type="checkbox" id="inlineCheckbox1" value="support"> Resolved
+                                </label>
+                                <label class="checkbox-inline">
+                                  <input type="checkbox" id="inlineCheckbox2" value="sales"> Spam
+                                </label>
+                                <label class="checkbox-inline">
+                                  <input type="checkbox" id="inlineCheckbox3" value="seniorStaff"> Need further assistance
+                                </label>
+                              </span><br>
+                              2. <strong>Ticket 2</strong>
+                              <span id="padLeft">
+                               <label class="checkbox-inline">
+                                 <input type="checkbox" id="inlineCheckbox1" value="support"> Resolved
+                               </label>
+                               <label class="checkbox-inline">
+                                 <input type="checkbox" id="inlineCheckbox2" value="sales"> Spam
+                               </label>
+                               <label class="checkbox-inline">
+                                 <input type="checkbox" id="inlineCheckbox3" value="seniorStaff"> Need further assistance
+                               </label>
+                              </span><br>
+                              3. <strong>Ticket 3</strong>
+                              <span id="padLeft">
+                               <label class="checkbox-inline">
+                                 <input type="checkbox" id="inlineCheckbox1" value="support"> Resolved
+                               </label>
+                               <label class="checkbox-inline">
+                                 <input type="checkbox" id="inlineCheckbox2" value="sales"> Spam
+                               </label>
+                               <label class="checkbox-inline">
+                                 <input type="checkbox" id="inlineCheckbox3" value="seniorStaff"> Need further assistance
+                               </label>
+                              </span><br>
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -285,9 +386,43 @@
                         <h4>Average Daily Revenue</h4>
                         <div class="row">
                           <div class="col-md-12">
-                            <p>1. Lorem ipsum dolor sit amet <br>
-                               2. consectetur adipisicing elit <br>
-                               3. sed do eiusmod tempor incididunt</p>
+                            <p>1. <strong>Ticket 1</strong>
+                              <span id="padLeft">
+                                <label class="checkbox-inline">
+                                  <input type="checkbox" id="inlineCheckbox1" value="support"> Resolved
+                                </label>
+                                <label class="checkbox-inline">
+                                  <input type="checkbox" id="inlineCheckbox2" value="sales"> Spam
+                                </label>
+                                <label class="checkbox-inline">
+                                  <input type="checkbox" id="inlineCheckbox3" value="seniorStaff"> Need further assistance
+                                </label>
+                              </span><br>
+                              2. <strong>Ticket 2</strong>
+                              <span id="padLeft">
+                               <label class="checkbox-inline">
+                                 <input type="checkbox" id="inlineCheckbox1" value="support"> Resolved
+                               </label>
+                               <label class="checkbox-inline">
+                                 <input type="checkbox" id="inlineCheckbox2" value="sales"> Spam
+                               </label>
+                               <label class="checkbox-inline">
+                                 <input type="checkbox" id="inlineCheckbox3" value="seniorStaff"> Need further assistance
+                               </label>
+                              </span><br>
+                              3. <strong>Ticket 3</strong>
+                              <span id="padLeft">
+                               <label class="checkbox-inline">
+                                 <input type="checkbox" id="inlineCheckbox1" value="support"> Resolved
+                               </label>
+                               <label class="checkbox-inline">
+                                 <input type="checkbox" id="inlineCheckbox2" value="sales"> Spam
+                               </label>
+                               <label class="checkbox-inline">
+                                 <input type="checkbox" id="inlineCheckbox3" value="seniorStaff"> Need further assistance
+                               </label>
+                              </span><br>
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -296,9 +431,43 @@
                         <h4>Lifetime Value</h4>
                         <div class="row">
                           <div class="col-md-12">
-                            <p>1. Lorem ipsum dolor sit amet <br>
-                               2. consectetur adipisicing elit <br>
-                               3. sed do eiusmod tempor incididunt</p>
+                            <p>1. <strong>Ticket 1</strong>
+                              <span id="padLeft">
+                                <label class="checkbox-inline">
+                                  <input type="checkbox" id="inlineCheckbox1" value="support"> Resolved
+                                </label>
+                                <label class="checkbox-inline">
+                                  <input type="checkbox" id="inlineCheckbox2" value="sales"> Spam
+                                </label>
+                                <label class="checkbox-inline">
+                                  <input type="checkbox" id="inlineCheckbox3" value="seniorStaff"> Need further assistance
+                                </label>
+                              </span><br>
+                              2. <strong>Ticket 2</strong>
+                              <span id="padLeft">
+                               <label class="checkbox-inline">
+                                 <input type="checkbox" id="inlineCheckbox1" value="support"> Resolved
+                               </label>
+                               <label class="checkbox-inline">
+                                 <input type="checkbox" id="inlineCheckbox2" value="sales"> Spam
+                               </label>
+                               <label class="checkbox-inline">
+                                 <input type="checkbox" id="inlineCheckbox3" value="seniorStaff"> Need further assistance
+                               </label>
+                              </span><br>
+                              3. <strong>Ticket 3</strong>
+                              <span id="padLeft">
+                               <label class="checkbox-inline">
+                                 <input type="checkbox" id="inlineCheckbox1" value="support"> Resolved
+                               </label>
+                               <label class="checkbox-inline">
+                                 <input type="checkbox" id="inlineCheckbox2" value="sales"> Spam
+                               </label>
+                               <label class="checkbox-inline">
+                                 <input type="checkbox" id="inlineCheckbox3" value="seniorStaff"> Need further assistance
+                               </label>
+                              </span><br>
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -307,9 +476,43 @@
                         <h4>Country</h4>
                         <div class="row">
                           <div class="col-md-12">
-                            <p>1. Lorem ipsum dolor sit amet <br>
-                               2. consectetur adipisicing elit <br>
-                               3. sed do eiusmod tempor incididunt</p>
+                            <p>1. <strong>Ticket 1</strong>
+                              <span id="padLeft">
+                                <label class="checkbox-inline">
+                                  <input type="checkbox" id="inlineCheckbox1" value="support"> Resolved
+                                </label>
+                                <label class="checkbox-inline">
+                                  <input type="checkbox" id="inlineCheckbox2" value="sales"> Spam
+                                </label>
+                                <label class="checkbox-inline">
+                                  <input type="checkbox" id="inlineCheckbox3" value="seniorStaff"> Need further assistance
+                                </label>
+                              </span><br>
+                              2. <strong>Ticket 2</strong>
+                              <span id="padLeft">
+                               <label class="checkbox-inline">
+                                 <input type="checkbox" id="inlineCheckbox1" value="support"> Resolved
+                               </label>
+                               <label class="checkbox-inline">
+                                 <input type="checkbox" id="inlineCheckbox2" value="sales"> Spam
+                               </label>
+                               <label class="checkbox-inline">
+                                 <input type="checkbox" id="inlineCheckbox3" value="seniorStaff"> Need further assistance
+                               </label>
+                              </span><br>
+                              3. <strong>Ticket 3</strong>
+                              <span id="padLeft">
+                               <label class="checkbox-inline">
+                                 <input type="checkbox" id="inlineCheckbox1" value="support"> Resolved
+                               </label>
+                               <label class="checkbox-inline">
+                                 <input type="checkbox" id="inlineCheckbox2" value="sales"> Spam
+                               </label>
+                               <label class="checkbox-inline">
+                                 <input type="checkbox" id="inlineCheckbox3" value="seniorStaff"> Need further assistance
+                               </label>
+                              </span><br>
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -318,13 +521,46 @@
                         <h4>Ticket Subject</h4>
                         <div class="row">
                           <div class="col-md-12">
-                            <p>1. Lorem ipsum dolor sit amet <br>
-                               2. consectetur adipisicing elit <br>
-                               3. sed do eiusmod tempor incididunt</p>
+                            <p>1. <strong>Ticket 1</strong>
+                              <span id="padLeft">
+                                <label class="checkbox-inline">
+                                  <input type="checkbox" id="inlineCheckbox1" value="support"> Resolved
+                                </label>
+                                <label class="checkbox-inline">
+                                  <input type="checkbox" id="inlineCheckbox2" value="sales"> Spam
+                                </label>
+                                <label class="checkbox-inline">
+                                  <input type="checkbox" id="inlineCheckbox3" value="seniorStaff"> Need further assistance
+                                </label>
+                              </span><br>
+                              2. <strong>Ticket 2</strong>
+                              <span id="padLeft">
+                               <label class="checkbox-inline">
+                                 <input type="checkbox" id="inlineCheckbox1" value="support"> Resolved
+                               </label>
+                               <label class="checkbox-inline">
+                                 <input type="checkbox" id="inlineCheckbox2" value="sales"> Spam
+                               </label>
+                               <label class="checkbox-inline">
+                                 <input type="checkbox" id="inlineCheckbox3" value="seniorStaff"> Need further assistance
+                               </label>
+                              </span><br>
+                              3. <strong>Ticket 3</strong>
+                              <span id="padLeft">
+                               <label class="checkbox-inline">
+                                 <input type="checkbox" id="inlineCheckbox1" value="support"> Resolved
+                               </label>
+                               <label class="checkbox-inline">
+                                 <input type="checkbox" id="inlineCheckbox2" value="sales"> Spam
+                               </label>
+                               <label class="checkbox-inline">
+                                 <input type="checkbox" id="inlineCheckbox3" value="seniorStaff"> Need further assistance
+                               </label>
+                              </span><br>
+                            </p>
                           </div>
                         </div>
                       </div>
-
                     </div>
                   </div>
                 </section>
