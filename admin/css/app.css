@@ -18,6 +18,11 @@ body {
 .h6 {
   margin: 0;
 }
+
+#padLeft{
+  padding-left: 2%; 
+}
+
 a {
   color: #3c4144;
   text-decoration: none;

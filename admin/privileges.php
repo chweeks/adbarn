@@ -248,14 +248,25 @@
                               <option value="scripta">scripta</option>
                             </select>
                             Select privilege level:
-                            <select name="privilege">
-                              <option value="support">support</option>
-                              <option value="sales">sales</option>
-                              <option value="seniorStaff">senior staff</option>
-                              <option value="admin">administrator</option>
-                            </select>
-                            <input type="submit">
+                            <br>
+                            <br>
+                            <label class="checkbox-inline">
+                              <input type="checkbox" id="inlineCheckbox1" value="support"> Support
+                            </label>
+                            <label class="checkbox-inline">
+                              <input type="checkbox" id="inlineCheckbox2" value="sales"> Sales
+                            </label>
+                            <label class="checkbox-inline">
+                              <input type="checkbox" id="inlineCheckbox3" value="seniorStaff"> Senior Staff
+                            </label>
+                            <label class="checkbox-inline">
+                              <input type="checkbox" id="inlineCheckbox4" value="admin"> Administrator
+                            </label>
+                            <span id="padLeft">
+                              <input class="btn btn-primary" type="submit" value="submit">
+                            </span>
                           </form>
+                          <br>
                         </div>
                       </section>
                     </div>
