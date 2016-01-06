@@ -1,37 +1,37 @@
 <?php
 
-$mysqli = new mysqli("127.0.0.1", "wau", "d9rk3KWU59dIq1", "adbarn", 3306);
-if ($mysqli->connect_errno) {
-    echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
-}
-
-if(isset($_COOKIE['user'])) {
-	$cookie = explode('-', $_COOKIE['user']);
-	$userid = $cookie[0];
-	if(is_numeric($userid)) {
-		$hash = $mysqli->real_escape_string($cookie[1]);
-		$query = $mysqli->query("SELECT * FROM users WHERE id='$userid'");
-		if($myrow = $query->fetch_assoc()) {
-			if($hash==sha1($myrow['password'])) {
-				//all good, stay here
-				$username = $myrow['email'];
-			} else {
-				logoutUser();
-			}
-		} else {
-			logoutUser();
-		}
-	} else {
-		logoutUser();
-	}
-} else {
-	logoutUser();
-}
-
-function logoutUser() {
-	header("Location: /logout.php");
-	exit();
-}
+// $mysqli = new mysqli("127.0.0.1", "wau", "d9rk3KWU59dIq1", "adbarn", 3306);
+// if ($mysqli->connect_errno) {
+//     echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
+// }
+//
+// if(isset($_COOKIE['user'])) {
+// 	$cookie = explode('-', $_COOKIE['user']);
+// 	$userid = $cookie[0];
+// 	if(is_numeric($userid)) {
+// 		$hash = $mysqli->real_escape_string($cookie[1]);
+// 		$query = $mysqli->query("SELECT * FROM users WHERE id='$userid'");
+// 		if($myrow = $query->fetch_assoc()) {
+// 			if($hash==sha1($myrow['password'])) {
+// 				//all good, stay here
+// 				$username = $myrow['email'];
+// 			} else {
+// 				logoutUser();
+// 			}
+// 		} else {
+// 			logoutUser();
+// 		}
+// 	} else {
+// 		logoutUser();
+// 	}
+// } else {
+// 	logoutUser();
+// }
+//
+// function logoutUser() {
+// 	header("Location: /logout.php");
+// 	exit();
+// }
 
 
 ?>
@@ -126,10 +126,10 @@ function logoutUser() {
           <ul class="dropdown-menu animated fadeInRight">
             <li>
               <span class="arrow top"></span>
-              <a href="#">Settings</a>
+              <a href="./settings.php">Settings</a>
             </li>
             <li>
-              <a href="profile.html">Profile</a>
+              <a href="./status.php">Status</a>
             </li>
             <li>
               <a href="#">
@@ -163,44 +163,38 @@ function logoutUser() {
                   <section class="row m-b-md"></section>
                   <ul class="nav nav-main" data-ride="collapse">
                     <li class="active bg-white">
-                      <a href="index.html" class="auto">
+                      <a href="index.php" class="auto">
                         <i class="i i-statistics icon i-2x">
                         </i>
                         <span class="font-bold h4 selected">Dashboard</span>
                       </a>
                     </li>
                     <li >
-                      <a href="#" class="auto">
+                      <a href="./reports.php" class="auto">
                         <i class="fa fa-dollar icon i-2x"></i>
-                        <span class="font-bold h4">Earnings</span>
+                        <span class="font-bold h4">Reports</span>
                       </a>
                     </li>
                     <li >
-                      <a href="#" class="auto">
+                      <a href="./placements.php" class="auto">
                         <i class="fa fa-tags icon i-2x"></i>
                         <span class="font-bold h4">Placements</span>
                       </a>
                     </li>
                     <li >
-                      <a href="#" class="auto">
+                      <a href="./affiliates.php" class="auto">
                         <i class="fa fa-users icon i-2x"></i>
                         <span class="font-bold h4">Affiliates</span>
                       </a>
                     </li>
                     <li >
-                      <a href="#" class="auto">
+                      <a href="./payments.php" class="auto">
                         <i class="fa fa-money icon i-2x"></i>
                         <span class="font-bold h4">Payments</span>
                       </a>
                     </li>
                     <li >
-                      <a href="#" class="auto">
-                        <i class="fa fa-warning icon i-2x"></i>
-                        <span class="font-bold h4">Status</span>
-                      </a>
-                    </li>
-                    <li >
-                      <a href="#" class="auto">
+                      <a href="./support.php" class="auto">
                         <i class="i i-support icon i-2x"></i>
                         <span class="font-bold h4">Support</span>
                       </a>
@@ -301,12 +295,12 @@ function logoutUser() {
                           <div class="col-md-3 b-b b-r">
                             <a class="block padder-v">
                               <span class="i-s i-s-2x pull-left m-r-sm">
-                                <i class="i i-hexagon2 i-s-base text-primary hover-rotate"></i>
-                                <i class="i i-dsc i-sm text-white"></i>
+                                <i class="i i-hexagon2 i-s-base text-success-lt hover-rotate"></i>
+                                <i class="fa fa-dollar i-sm text-white"></i>
                               </span>
                               <span class="clear">
-                                <span class="h3 block m-t-xs text-primary">64</span>
-                                <small class="text-muted text-u-c">Conversions</small>
+                                <span class="h3 block m-t-xs text-success-lt">$24.14</span>
+                                <small class="text-muted text-u-c">Affiliate Revenue</small>
                               </span>
                             </a>
                           </div>
@@ -318,7 +312,7 @@ function logoutUser() {
                               </span>
                               <span class="clear">
                                 <span class="h3 block m-t-xs text-success-lt">$59.88</span>
-                                <small class="text-muted text-u-c">Revenue</small>
+                                <small class="text-muted text-u-c">Ad Revenue</small>
                               </span>
                             </a>
                           </div>
@@ -365,8 +359,8 @@ function logoutUser() {
                                 <i class="fa fa-dollar i-sm text-white"></i>
                               </span>
                               <span class="clear">
-                                <span class="h3 block m-t-xs text-success-lt">$24.14</span>
-                                <small class="text-muted text-u-c">Affiliate Revenue</small>
+                                <span class="h3 block m-t-xs text-success-lt">$224.14</span>
+                                <small class="text-muted text-u-c">Total Revenue</small>
                               </span>
                             </a>
                           </div>
@@ -404,54 +398,70 @@ function logoutUser() {
                     </div>
                   </div>
                   <div class="row">
-                      <div class="col-lg-12">
-                          <div class="panel b-a">
-                            <div class="panel-heading b-b">Map</div>
-                            <div class="panel-body">
-                              <p class="m-b-lg text-muted">Impressions... bla bla bla</p>
-                              <div class="row m-b-xl">
-                                <div class="col-sm-8">
-                                  <div id="world_map" style="height:240px;">
+                    <div class="col-lg-12">
+                      <div class="panel b-a">
+                        <div class="panel-body">
+                          <div class="row text-center">
+                            <div class="col-lg-offset-1 col-lg-2">
+                              <div class="btn btn-fixed btn-default">Impressions</div>
+                            </div>
+                            <div class="col-lg-2">
+                              <div class="btn btn-fixed btn-default">Revenue</div>
+                            </div>
+                            <div class="col-lg-2">
+                              <div class="btn btn-fixed btn-default">RPM</div>
+                            </div>
+                            <div class="col-lg-2">
+                              <div class="btn btn-fixed btn-default">CTR</div>
+                            </div>
+                            <div class="col-lg-2">
+                              <div class="btn btn-fixed btn-default">Clicks</div>
+                            </div>
+                          </div>
+                          <br>
+                          <div class="row m-b-xl">
+                            <div class="col-sm-8">
+                              <div id="world_map" style="height:260px;">
 
+                              </div>
+                            </div>
+                            <div class="col-sm-4">
+                              <div class="h4 m-b font-thin">Statistics</div>
+                              <p>Internal administrative boundaries</p>
+                              <div>
+                                <div class="inline text-center">
+                                  <div class="easypiechart" data-percent="60" data-bar-color="#fcc633" data-line-width="4" data-loop="false" data-scale-color="#fff" data-rotate="0" data-size="100">
+                                    <div>
+                                      <span class="step">60</span>%
+                                    </div>
                                   </div>
+                                  <p class="text-warning font-bold">data</p>
                                 </div>
-                                <div class="col-sm-4">
-                                  <div class="h4 m-b font-thin">Statistics</div>
-                                  <p>Internal administrative boundaries</p>
-                                  <div>
-                                    <div class="inline text-center">
-                                      <div class="easypiechart" data-percent="60" data-bar-color="#fcc633" data-line-width="4" data-loop="false" data-scale-color="#fff" data-rotate="0" data-size="100">
-                                        <div>
-                                          <span class="step">60</span>%
-                                        </div>
-                                      </div>
-                                      <p class="text-warning font-bold">data</p>
-                                    </div>
-                                    <div class="inline text-center">
-                                      <div class="easypiechart" data-percent="35" data-bar-color="#177bbb" data-line-width="4" data-loop="false" data-scale-color="#fff" data-rotate="0" data-size="100">
-                                        <div>
-                                          <span class="step">35</span>%
-                                        </div>
-                                      </div>
-                                      <p class="text-primary font-bold">info</p>
+                                <div class="inline text-center">
+                                  <div class="easypiechart" data-percent="35" data-bar-color="#177bbb" data-line-width="4" data-loop="false" data-scale-color="#fff" data-rotate="0" data-size="100">
+                                    <div>
+                                      <span class="step">35</span>%
                                     </div>
                                   </div>
+                                  <p class="text-primary font-bold">info</p>
                                 </div>
                               </div>
                             </div>
                           </div>
-                       </div>
-                    </div>
-                </section>
-              </section>
+                        </div>
+                      </div>
+                   </div>
+                </div>
             </section>
-
           </section>
-          <a href="#" class="hide nav-off-screen-block" data-toggle="class:nav-off-screen" data-target="#nav"></a>
         </section>
+
       </section>
+      <a href="#" class="hide nav-off-screen-block" data-toggle="class:nav-off-screen" data-target="#nav"></a>
     </section>
   </section>
+</section>
+</section>
 
   <!-- Bootstrap -->
   <script src="js/bootstrap.js"></script>

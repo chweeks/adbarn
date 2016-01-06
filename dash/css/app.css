@@ -18,6 +18,11 @@ body {
 .h6 {
   margin: 0;
 }
+
+#noMargin{
+  margin: 0px;
+}
+
 a {
   color: #3c4144;
   text-decoration: none;
@@ -270,6 +275,7 @@ a.list-group-item:focus {
 .panel .table th {
   padding: 8px 15px;
   border-top: 1px solid #eaeef1;
+  text-align: left;
 }
 .panel .table thead > tr > th {
   border-bottom: 1px solid #eaeef1;
@@ -977,7 +983,7 @@ body.container {
     line-height: 60px;
   }
   .header-md .navbar-brand img {
-    
+
   }
   .header-md .navbar-nav > li > a {
     padding: 20px;
@@ -3567,11 +3573,11 @@ fieldset[disabled] .i-checks input + i:before {
 }
 
 @media (max-width: 767px) {
-	
+
 	.col-xs-4 {
 		float:none;
 		width:100%;
 	}
-	
-	
+
+
 }
