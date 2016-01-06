@@ -159,14 +159,14 @@
                 <nav class="nav-primary hidden-xs">
                   <section class="row m-b-md"></section>
                   <ul class="nav nav-main" data-ride="collapse">
-                    <li class="active bg-white">
+                    <li>
                       <a href="/admin/index.php" class="auto">
                         <i class="i i-statistics icon i-2x">
                         </i>
                         <span class="font-bold h4 selected">Dashboard</span>
                       </a>
                     </li>
-                    <li>
+                    <li  class="active bg-white">
                       <a href="/admin/automatedEmails.php" class="auto">
                         <i class="fa fa-warning icon i-2x"></i>
                         <span class="font-bold h4">Automated Emails</span>

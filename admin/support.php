@@ -159,7 +159,7 @@
                 <nav class="nav-primary hidden-xs">
                   <section class="row m-b-md"></section>
                   <ul class="nav nav-main" data-ride="collapse">
-                    <li class="active bg-white">
+                    <li>
                       <a href="/admin/index.php" class="auto">
                         <i class="i i-statistics icon i-2x">
                         </i>
@@ -178,7 +178,7 @@
                         <span class="font-bold h4">Privileges</span>
                       </a>
                     </li>
-                    <li>
+                    <li class="active bg-white">
                       <a href="/admin/support.php" class="auto">
                         <i class="i i-support icon i-2x"></i>
                         <span class="font-bold h4">Support</span>
