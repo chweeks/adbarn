@@ -31,6 +31,10 @@ body {
   padding-left: 0px;
 }
 
+#noMargin{
+  margin: 0px;
+}
+
 a {
   color: #3c4144;
   text-decoration: none;
