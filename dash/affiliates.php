@@ -251,31 +251,110 @@
                          <section class="row m-l-none m-r-none m-b text-center bg-white panel b-a">
                            <div class="col-xs-6 dk lter r-l">
                              <div class="wrapper">
-                              AFILLIATE CODE
+                              <pre id="noMargin">AFILLIATE CODE</pre>
                              </div>
                            </div>
                            <div class="col-xs-6 lt">
-                             <div class="wrapper">
-                               CHANGE LANDING PAGE AND LANGUAGE SELECTOR
+                             <div>
+                               <h4>Select Language</h4>
+                               <select>
+                                 <option>En</option>
+                               </select>
                              </div>
                            </div>
                          </section>
                          <section class="row m-l-none m-r-none m-b text-center bg-white panel b-a">
                            <div class="col-xs-6 dk lter r-l">
                              <div class="wrapper">
-                              AFILLIATE PACKAGE BUTTON AND LANGUAGE SELECTOR
+                              <button class="btn btn-default">AFILLIATE PACKAGE</button>
+                              <select>
+                                <option>En</option>
+                              </select>
                              </div>
                            </div>
                            <div class="col-xs-6 lt">
                              <div class="wrapper">
-                               ADVANCED BUTTON
+                               <button class="btn btn-default">ADVANCED</button>
                              </div>
                            </div>
                          </section>
                          <section class="row m-l-none m-r-none m-b text-center bg-white panel b-a">
                            <div class="col-xs-12 dk lter r-l">
                              <div class="wrapper">
-                              AB AFILLIATE PROGRAM EXPLAINED
+                              <h3 class="text-orange">AB Afilliate Program Explained</h3>
+                              <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                                qui officia deserunt mollit anim id est laborum.
+                              </p>
+                             </div>
+                           </div>
+                         </section>
+                         <section class="row m-l-none m-r-none m-b text-center bg-white panel b-a">
+                           <div class="col-xs-12 dk lter r-l" id="noPadding">
+                             <ul class="nav nav-tabs nav-justified">
+                               <h3 class="text-orange" style="text-align:center">Advanced Afilliate</h3>
+                               <li class="active"><a data-toggle="tab" href="#landingPages">Landing Pages</a></li>
+                               <li><a data-toggle="tab" href="#bannersPack">Banners Pack</a></li>
+                               <li><a data-toggle="tab" href="#shareTools">Share Tools</a></li>
+                               <li><a data-toggle="tab" href="#forumTools">Forum Tools</a></li>
+                               <li><a data-toggle="tab" href="#imShortlink">IM Shortlink</a></li>
+                             </ul>
+                             <div class="tab-content">
+                               <div id="landingPages" class="tab-pane fade in active">
+                                 <div class="row">
+                                   <div class="col-md-6">
+                                     LANDING PAGES
+                                   </div>
+                                   <div class="col-md-6">
+
+                                   </div>
+                                 </div>
+                               </div>
+                               <div id="bannersPack" class="tab-pane fade">
+                                 <div class="row">
+                                   <div class="col-md-6">
+                                     BANNERS PACK
+                                   </div>
+                                   <div class="col-md-6">
+
+                                   </div>
+                                 </div>
+                               </div>
+                               <div id="shareTools" class="tab-pane fade">
+                                 <div class="row">
+                                   <div class="col-md-6">
+                                     SHARE TOOLS
+                                   </div>
+                                   <div class="col-md-6">
+
+                                   </div>
+                                 </div>
+                               </div>
+                               <div id="forumTools" class="tab-pane fade">
+                                 <div class="row">
+                                   <div class="col-md-6">
+                                      FORUM TOOLS
+                                   </div>
+                                   <div class="col-md-6">
+
+                                   </div>
+                                 </div>
+                               </div>
+                               <div id="imShortlink" class="tab-pane fade">
+                                 <div class="row">
+                                   <div class="col-md-6">
+                                     SHORTLINK
+                                   </div>
+                                   <div class="col-md-6">
+
+                                   </div>
+                                 </div>
+                               </div>
                              </div>
                            </div>
                          </section>
