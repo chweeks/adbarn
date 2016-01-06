@@ -186,7 +186,6 @@
                     </li>
                   </ul>
                   <div class="line dk hidden-nav-xs"></div>
-
                 </nav>
                 <!-- / nav -->
               </div>
@@ -212,16 +211,210 @@
                 <section class="padder">
                   <div class="col-lg-12" id="noPadding">
                     <section class="row m-l-none m-r-none m-b text-center bg-white panel b-a">
+                      <h1 class="text-orange">Automated Emails</h1>
+                      <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                        <div class="panel panel-default">
+                          <div class="panel-heading" role="tab" id="headingOne">
+                            <h4 class="panel-title">
+                              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Welcome Email
+                              </a>
+                            </h4>
+                          </div>
+                          <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                            <div class="panel-body">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                              culpa qui officia deserunt mollit anim id est laborum.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="panel panel-default">
+                          <div class="panel-heading" role="tab" id="headingTwo">
+                            <h4 class="panel-title">
+                              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Reminder to create first placement
+                              </a>
+                            </h4>
+                          </div>
+                          <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                            <div class="panel-body">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                              culpa qui officia deserunt mollit anim id est laborum.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="panel panel-default">
+                          <div class="panel-heading" role="tab" id="headingThree">
+                            <h4 class="panel-title">
+                              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Inactive user email
+                              </a>
+                            </h4>
+                          </div>
+                          <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                            <div class="panel-body">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                              culpa qui officia deserunt mollit anim id est laborum.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="panel panel-default">
+                          <div class="panel-heading" role="tab" id="headingFour">
+                            <h4 class="panel-title">
+                              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                                Recently issued payment
+                              </a>
+                            </h4>
+                          </div>
+                          <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                            <div class="panel-body">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                              culpa qui officia deserunt mollit anim id est laborum.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="panel panel-default">
+                          <div class="panel-heading" role="tab" id="headingFive">
+                            <h4 class="panel-title">
+                              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+                                Introduction to affiliate program
+                              </a>
+                            </h4>
+                          </div>
+                          <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                            <div class="panel-body">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                              culpa qui officia deserunt mollit anim id est laborum.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="panel panel-default">
+                          <div class="panel-heading" role="tab" id="headingSix">
+                            <h4 class="panel-title">
+                              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
+                                Placement email
+                              </a>
+                            </h4>
+                          </div>
+                          <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+                            <div class="panel-body">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                              culpa qui officia deserunt mollit anim id est laborum.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="panel panel-default">
+                          <div class="panel-heading" role="tab" id="headingSeven">
+                            <h4 class="panel-title">
+                              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseThree">
+                                Placement email reminder
+                              </a>
+                            </h4>
+                          </div>
+                          <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
+                            <div class="panel-body">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                              culpa qui officia deserunt mollit anim id est laborum.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="panel panel-default">
+                          <div class="panel-heading" role="tab" id="headingEight">
+                            <h4 class="panel-title">
+                              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseThree">
+                                New affiliae referral with a link to the super affiliate pack
+                              </a>
+                            </h4>
+                          </div>
+                          <div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight">
+                            <div class="panel-body">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                              culpa qui officia deserunt mollit anim id est laborum.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="panel panel-default">
+                          <div class="panel-heading" role="tab" id="headingNine">
+                            <h4 class="panel-title">
+                              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseNine" aria-expanded="false" aria-controls="collapseThree">
+                                Status update
+                              </a>
+                            </h4>
+                          </div>
+                          <div id="collapseNine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingNine">
+                            <div class="panel-body">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                              culpa qui officia deserunt mollit anim id est laborum.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="panel panel-default">
+                          <div class="panel-heading" role="tab" id="headingTen">
+                            <h4 class="panel-title">
+                              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTen" aria-expanded="false" aria-controls="collapseThree">
+                                Support ticket update
+                              </a>
+                            </h4>
+                          </div>
+                          <div id="collapseTen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTen">
+                            <div class="panel-body">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                              culpa qui officia deserunt mollit anim id est laborum.
+                            </div>
+                          </div>
+                        </div>
 
+                      </div>
+                    </section>
+                  </section>
                 </section>
               </section>
+              <a href="#" class="hide nav-off-screen-block" data-toggle="class:nav-off-screen" data-target="#nav"></a>
             </section>
           </section>
-          <a href="#" class="hide nav-off-screen-block" data-toggle="class:nav-off-screen" data-target="#nav"></a>
         </section>
       </section>
     </section>
-  </section>
 
   <!-- Bootstrap -->
   <script src="/admin/js/bootstrap.js"></script>
