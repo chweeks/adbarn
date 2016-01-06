@@ -308,20 +308,61 @@
                                <div id="landingPages" class="tab-pane fade in active">
                                  <div class="row">
                                    <div class="col-md-6">
-                                     LANDING PAGES
+                                     <h4>Select Language</h4>
+                                     <select>
+                                       <option>En</option>
+                                     </select>
                                    </div>
                                    <div class="col-md-6">
-
+                                     <h4>Select Background Colour</h4>
+                                     <select>
+                                       <option>White</option>
+                                       <option>Blue</option>
+                                       <option>Red</option>
+                                       <option>Yellow</option>
+                                     </select>
                                    </div>
                                  </div>
+                                 <br>
                                </div>
                                <div id="bannersPack" class="tab-pane fade">
-                                 <div class="row">
-                                   <div class="col-md-6">
-                                     BANNERS PACK
-                                   </div>
-                                   <div class="col-md-6">
-
+                                 <div class="col-md-12">
+                                   <br>
+                                   <button data-toggle="modal" href="#bannerChoice"><h4 class="text-orange">Choose Banner</h4></button>
+                                   <br>
+                                   <br>
+                                 </div>
+                                 <div class="modal fade bs-example-modal-lg" id="bannerChoice" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                                   <div class="modal-dialog modal-lg">
+                                     <div class="modal-content">
+                                       <div class="col-md-12">
+                                         <img src="http://placehold.it/250x300">
+                                       </div>
+                                       <div class="row">
+                                         <div class="col-md-6">
+                                           <h4 class="text-orange">Select Language</h4>
+                                           <select>
+                                             <option>En</option>
+                                           </select>
+                                         </div>
+                                         <div class="col-md-6">
+                                           <h4 class="text-orange">Select Background Colour</h4>
+                                           <select>
+                                             <option>White</option>
+                                             <option>Blue</option>
+                                             <option>Red</option>
+                                             <option>Yellow</option>
+                                           </select>
+                                         </div>
+                                       </div>
+                                       <br>
+                                       <div class="row">
+                                         <div class="col-md-12" id="padRight">
+                                           <pre>Generated code</pre><button class="btn btn-success">Generate Code</button>
+                                         </div>
+                                       </div>
+                                       <br>
+                                     </div>
                                    </div>
                                  </div>
                                </div>
