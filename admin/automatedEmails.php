@@ -223,12 +223,17 @@
                           </div>
                           <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                             <div class="panel-body">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                              culpa qui officia deserunt mollit anim id est laborum.
+                              <form class="form-block">
+                                <div class="form-group">
+                                  <label for="email" class="sr-only">Email</label>
+                                  <input type="password" class="form-control" id="inputPassword2" placeholder="example@email.com">
+                                </div>
+                                <div class="form-group">
+                                  <textarea class="form-control" rows="5" id="emailText"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                  </textarea>
+                                </div>
+                                <button type="submit" class="btn btn-info">Send</button>
+                              </form>
                             </div>
                           </div>
                         </div>
@@ -242,12 +247,17 @@
                           </div>
                           <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                             <div class="panel-body">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                              culpa qui officia deserunt mollit anim id est laborum.
+                              <form class="form-block">
+                                <div class="form-group">
+                                  <label for="email" class="sr-only">Email</label>
+                                  <input type="password" class="form-control" id="inputPassword2" placeholder="example@email.com">
+                                </div>
+                                <div class="form-group">
+                                  <textarea class="form-control" rows="5" id="emailText"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                  </textarea>
+                                </div>
+                                <button type="submit" class="btn btn-info">Send</button>
+                              </form>
                             </div>
                           </div>
                         </div>
@@ -261,12 +271,17 @@
                           </div>
                           <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                             <div class="panel-body">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                              culpa qui officia deserunt mollit anim id est laborum.
+                              <form class="form-block">
+                                <div class="form-group">
+                                  <label for="email" class="sr-only">Email</label>
+                                  <input type="password" class="form-control" id="inputPassword2" placeholder="example@email.com">
+                                </div>
+                                <div class="form-group">
+                                  <textarea class="form-control" rows="5" id="emailText"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                  </textarea>
+                                </div>
+                                <button type="submit" class="btn btn-info">Send</button>
+                              </form>
                             </div>
                           </div>
                         </div>
@@ -280,12 +295,17 @@
                           </div>
                           <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
                             <div class="panel-body">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                              culpa qui officia deserunt mollit anim id est laborum.
+                              <form class="form-block">
+                                <div class="form-group">
+                                  <label for="email" class="sr-only">Email</label>
+                                  <input type="password" class="form-control" id="inputPassword2" placeholder="example@email.com">
+                                </div>
+                                <div class="form-group">
+                                  <textarea class="form-control" rows="5" id="emailText"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                  </textarea>
+                                </div>
+                                <button type="submit" class="btn btn-info">Send</button>
+                              </form>
                             </div>
                           </div>
                         </div>
@@ -299,12 +319,17 @@
                           </div>
                           <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
                             <div class="panel-body">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                              culpa qui officia deserunt mollit anim id est laborum.
+                              <form class="form-block">
+                                <div class="form-group">
+                                  <label for="email" class="sr-only">Email</label>
+                                  <input type="password" class="form-control" id="inputPassword2" placeholder="example@email.com">
+                                </div>
+                                <div class="form-group">
+                                  <textarea class="form-control" rows="5" id="emailText"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                  </textarea>
+                                </div>
+                                <button type="submit" class="btn btn-info">Send</button>
+                              </form>
                             </div>
                           </div>
                         </div>
@@ -318,12 +343,17 @@
                           </div>
                           <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
                             <div class="panel-body">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                              culpa qui officia deserunt mollit anim id est laborum.
+                              <form class="form-block">
+                                <div class="form-group">
+                                  <label for="email" class="sr-only">Email</label>
+                                  <input type="password" class="form-control" id="inputPassword2" placeholder="example@email.com">
+                                </div>
+                                <div class="form-group">
+                                  <textarea class="form-control" rows="5" id="emailText"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                  </textarea>
+                                </div>
+                                <button type="submit" class="btn btn-info">Send</button>
+                              </form>
                             </div>
                           </div>
                         </div>
@@ -337,12 +367,17 @@
                           </div>
                           <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
                             <div class="panel-body">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                              culpa qui officia deserunt mollit anim id est laborum.
+                              <form class="form-block">
+                                <div class="form-group">
+                                  <label for="email" class="sr-only">Email</label>
+                                  <input type="password" class="form-control" id="inputPassword2" placeholder="example@email.com">
+                                </div>
+                                <div class="form-group">
+                                  <textarea class="form-control" rows="5" id="emailText"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                  </textarea>
+                                </div>
+                                <button type="submit" class="btn btn-info">Send</button>
+                              </form>
                             </div>
                           </div>
                         </div>
@@ -356,12 +391,17 @@
                           </div>
                           <div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight">
                             <div class="panel-body">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                              culpa qui officia deserunt mollit anim id est laborum.
+                              <form class="form-block">
+                                <div class="form-group">
+                                  <label for="email" class="sr-only">Email</label>
+                                  <input type="password" class="form-control" id="inputPassword2" placeholder="example@email.com">
+                                </div>
+                                <div class="form-group">
+                                  <textarea class="form-control" rows="5" id="emailText"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                  </textarea>
+                                </div>
+                                <button type="submit" class="btn btn-info">Send</button>
+                              </form>
                             </div>
                           </div>
                         </div>
@@ -375,12 +415,17 @@
                           </div>
                           <div id="collapseNine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingNine">
                             <div class="panel-body">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                              culpa qui officia deserunt mollit anim id est laborum.
+                              <form class="form-block">
+                                <div class="form-group">
+                                  <label for="email" class="sr-only">Email</label>
+                                  <input type="password" class="form-control" id="inputPassword2" placeholder="example@email.com">
+                                </div>
+                                <div class="form-group">
+                                  <textarea class="form-control" rows="5" id="emailText"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                  </textarea>
+                                </div>
+                                <button type="submit" class="btn btn-info">Send</button>
+                              </form>
                             </div>
                           </div>
                         </div>
@@ -394,16 +439,20 @@
                           </div>
                           <div id="collapseTen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTen">
                             <div class="panel-body">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                              culpa qui officia deserunt mollit anim id est laborum.
+                              <form class="form-block">
+                                <div class="form-group">
+                                  <label for="email" class="sr-only">Email</label>
+                                  <input type="password" class="form-control" id="inputPassword2" placeholder="example@email.com">
+                                </div>
+                                <div class="form-group">
+                                  <textarea class="form-control" rows="5" id="emailText"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                  </textarea>
+                                </div>
+                                <button type="submit" class="btn btn-info">Send</button>
+                              </form>
                             </div>
                           </div>
                         </div>
-
                       </div>
                     </section>
                   </section>
