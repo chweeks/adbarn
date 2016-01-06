@@ -167,7 +167,7 @@
                       </a>
                     </li>
                     <li>
-                      <a href="#" class="auto">
+                      <a href="/admin/automatedEmails.php" class="auto">
                         <i class="fa fa-warning icon i-2x"></i>
                         <span class="font-bold h4">Automated Emails</span>
                       </a>
