@@ -288,7 +288,7 @@
                                 </form>
                                 <div class="row">
                                   <div class="col-lg-offset-1 col-lg-10">
-                                    <code>Ad code generated goes here</code>
+                                    <pre>Ad code generated goes here</pre>
                                   </div>
                               </div>
                              </div>

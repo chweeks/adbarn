@@ -126,10 +126,10 @@
           <ul class="dropdown-menu animated fadeInRight">
             <li>
               <span class="arrow top"></span>
-              <a href="#">Settings</a>
+              <a href="./settings.php">Settings</a>
             </li>
             <li>
-              <a href="profile.html">Status</a>
+              <a href="./status.php">Status</a>
             </li>
             <li>
               <a href="#">
@@ -162,7 +162,7 @@
                 <nav class="nav-primary hidden-xs">
                   <section class="row m-b-md"></section>
                   <ul class="nav nav-main" data-ride="collapse">
-                    <li class="active bg-white">
+                    <li>
                       <a href="index.php" class="auto">
                         <i class="i i-statistics icon i-2x">
                         </i>
@@ -193,7 +193,7 @@
                         <span class="font-bold h4">Payments</span>
                       </a>
                     </li>
-                    <li >
+                    <li class="active bg-white">
                       <a href="./support.php" class="auto">
                         <i class="i i-support icon i-2x"></i>
                         <span class="font-bold h4">Support</span>
@@ -227,7 +227,57 @@
                      <div class="row">
                          <div class="col-lg-12">
                          <section class="row m-l-none m-r-none m-b text-center bg-white panel b-a">
-                           <p>Hello</p>
+                           <div class="row">
+                             <h1 class="text-orange">Support</h1>
+                           </div>
+                           <div class="row">
+                             <div class="col-lg-offset-1 col-lg-10">
+                               <div class="btn-group">
+                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Select your issue from the list below <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                  <li><a role="button" data-toggle="collapse" href="#problem1" aria-expanded="false" aria-controls="problem1">A problem</a></li>
+                                  <li><a role="button" data-toggle="collapse" href="#problem2" aria-expanded="false" aria-controls="problem2">Another problem</a></li>
+                                  <li><a role="button" data-toggle="collapse" href="#other" aria-expanded="false" aria-controls="other">Other</a></li>
+                                </ul>
+                              </div>
+                             </div>
+                          </div>
+                          <br>
+                          <div class="collapse" id="problem1">
+                            <div class="col-lg-offset-1 col-lg-10">
+                              <div class="well">
+                                Info one how to sort out said problem.
+                              </div>
+                            </div>
+                          </div>
+                          <div class="collapse" id="problem2">
+                            <div class="col-lg-offset-1 col-lg-10">
+                              <div class="well">
+                                Information for another problem that one might have.
+                              </div>
+                            </div>
+                          </div>
+                          <div class="collapse" id="other">
+                            <div class="col-lg-offset-1 col-lg-10">
+                              <p>Get in contact and let us know what issue you are having!</p>
+                              <form>
+                                <div class="form-group">
+                                  <div class="row">
+                                    <div class="col-lg-offset-1 col-lg-10">
+                                      <textarea rows="4" placeholder="Please give as much supporting information as possible so that we can best assist you"></textarea>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-lg-offset-4 col-lg-4">
+                                    <button type="submit" class="btn btn-default">Send</button>
+                                  </div>
+                                </div>
+                                <br>
+                            </div>
+                          </div>
                          </section>
                        </div>
                      </div>

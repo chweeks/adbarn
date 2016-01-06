@@ -126,10 +126,10 @@
           <ul class="dropdown-menu animated fadeInRight">
             <li>
               <span class="arrow top"></span>
-              <a href="#">Settings</a>
+              <a href="./settings.php">Settings</a>
             </li>
             <li>
-              <a href="profile.html">Status</a>
+              <a href="./status.php">Status</a>
             </li>
             <li>
               <a href="#">
@@ -162,7 +162,7 @@
                 <nav class="nav-primary hidden-xs">
                   <section class="row m-b-md"></section>
                   <ul class="nav nav-main" data-ride="collapse">
-                    <li class="active bg-white">
+                    <li>
                       <a href="index.php" class="auto">
                         <i class="i i-statistics icon i-2x">
                         </i>
@@ -187,7 +187,7 @@
                         <span class="font-bold h4">Affiliates</span>
                       </a>
                     </li>
-                    <li >
+                    <li class="active bg-white">
                       <a href="./payments.php" class="auto">
                         <i class="fa fa-money icon i-2x"></i>
                         <span class="font-bold h4">Payments</span>
@@ -227,7 +227,49 @@
                      <div class="row">
                          <div class="col-lg-12">
                          <section class="row m-l-none m-r-none m-b text-center bg-white panel b-a">
-                           <p>Hello</p>
+                           <div class="row">
+                             <h1 class="text-orange">Payments</h1>
+                           </div>
+                           <div class="col-lg-offset-1 col-lg-10">
+                            <div class="alert alert-warning" role="alert">
+                              No payments were issued yet
+                            </div>
+                          </div>
+                          <div class="col-lg-offset-1 col-lg-10">
+                           <div class="alert alert-danger" role="alert">
+                             You need to submit payment information before you can be paid. <a href="#">Click here</a> to do so
+                           </div>
+                         </div>
+                         <div class="row">
+                           <div class="col-lg-offset-1 col-lg-10">
+                             <table class="table table-striped">
+                               <thead>
+                                <tr>
+                                  <th>Payment Date</th>
+                                  <th>Amount</th>
+                                  <th>Payment Method</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <th>25/12/15</th>
+                                  <td>110.76</td>
+                                  <td>PayPal</td>
+                                </tr>
+                                <tr>
+                                  <th>25/12/15</th>
+                                  <td>110.76</td>
+                                  <td>PayPal</td>
+                                </tr>
+                                <tr>
+                                  <th>25/12/15</th>
+                                  <td>110.76</td>
+                                  <td>PayPal</td>
+                                </tr>
+                              </tbody>
+                             </table>
+                           </div>
+                         </div>
                          </section>
                        </div>
                      </div>
