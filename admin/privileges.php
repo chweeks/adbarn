@@ -213,18 +213,21 @@
                   <div class="row">
                   	<div class="col-lg-12">
                       <section class="row m-l-none m-r-none m-b text-center bg-white panel b-a">
-                        <h2>Set privileges</h2>
+                        <h1 class="text-orange">Set Privileges</h1>
                         <div>
                           <form>
-                            Select employee:
-                            <select name="Employee">
-                              <option value="lorem">lorem</option>
-                              <option value="ipsum">ipsum</option>
-                              <option value="adhis">adhis</option>
-                              <option value="scripta">scripta</option>
-                            </select>
-                            Select privilege level:
+                            <h3>Select employee:</h3>
+                            <div class="col-md-8 col-md-offset-2">
+                              <select class="form-control" name="Employee">
+                                <option value="lorem">lorem</option>
+                                <option value="ipsum">ipsum</option>
+                                <option value="adhis">adhis</option>
+                                <option value="scripta">scripta</option>
+                              </select>
+                            </div>
                             <br>
+                            <br>
+                            <h3>Select privilege level:</h3>
                             <br>
                             <label class="checkbox-inline">
                               <input type="checkbox" id="inlineCheckbox1" value="support"> Support
@@ -238,9 +241,11 @@
                             <label class="checkbox-inline">
                               <input type="checkbox" id="inlineCheckbox4" value="admin"> Administrator
                             </label>
-                            <span id="padLeft">
+                            <br>
+                            <br>
+                            <div id="padLeft">
                               <input class="btn btn-primary" type="submit" value="submit">
-                            </span>
+                            </div>
                           </form>
                           <br>
                         </div>
