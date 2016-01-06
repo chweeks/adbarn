@@ -20,7 +20,15 @@ body {
 }
 
 #padLeft{
-  padding-left: 2%; 
+  padding-left: 2%;
+}
+
+#noPadRight{
+  padding-right: 0px;
+}
+
+#noPadLeft{
+  padding-left: 0px;
 }
 
 a {

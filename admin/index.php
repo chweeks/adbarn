@@ -520,108 +520,274 @@
                       <div id="top" class="tab-pane fade in active">
                         <h3>Top Users</h3>
                         <div class="row">
-                          <div class="col-md-6">
-                            <h4>Revenue</h4>
-                            <p>1. Lorem ipsum dolor sit amet <br>
-                               2. consectetur adipisicing elit <br>
-                               3. sed do eiusmod tempor incididunt <br>
-                               4. ut labore et dolore magna aliqua.<br>
-                               5. Ut enim ad minim veniam, quis<br>
-                               7. nostrud exercitation ullamco <br>
-                               8. laboris nisi ut aliquip ex<br>
-                               9. ea commodo consequat. Duis aute<br>
-                               10. irure dolor in reprehenderit in</p>
-                          </div>
-                          <div class="col-md-6">
-                            <h4>Ad Requests</h4>
-                            <p>1. Lorem ipsum dolor sit amet <br>
-                               2. consectetur adipisicing elit <br>
-                               3. sed do eiusmod tempor incididunt <br>
-                               4. ut labore et dolore magna aliqua.<br>
-                               5. Ut enim ad minim veniam, quis<br>
-                               7. nostrud exercitation ullamco <br>
-                               8. laboris nisi ut aliquip ex<br>
-                               9. ea commodo consequat. Duis aute<br>
-                               10. irure dolor in reprehenderit in</p>
+                          <div class="col-md-6" id="noPadRight">
+                            <div class="panel panel-success">
+                              <div class="panel-heading">Revenue</div>
+                              <table class="table">
+                                <tr>
+                                  <td>Lorem ipsum dolor sit amet</td>
+                                </tr>
+                                <tr>
+                                  <td>Lorem ipsum dolor sit amet</td>
+                                </tr>
+                                <tr>
+                                  <td>Lorem ipsum dolor sit amet</td>
+                                </tr>
+                                <tr>
+                                  <td>Lorem ipsum dolor sit amet</td>
+                                </tr>
+                                <tr>
+                                  <td>Lorem ipsum dolor sit amet</td>
+                                </tr>
+                                <tr>
+                                  <td>Lorem ipsum dolor sit amet</td>
+                                </tr>
+                                <tr>
+                                  <td>Lorem ipsum dolor sit amet</td>
+                                </tr>
+                                <tr>
+                                  <td>Lorem ipsum dolor sit amet</td>
+                                </tr>
+                                <tr>
+                                  <td>Lorem ipsum dolor sit amet</td>
+                                </tr>
+                                <tr>
+                                  <td>Lorem ipsum dolor sit amet</td>
+                                </tr>
+                              </table>
+                              </div>
+                            </div>
+                          <div class="col-md-6" id="noPadLeft">
+                            <div class="panel panel-info">
+                              <div class="panel-heading">Ad Requests</div>
+                              <table class="table">
+                                <tr>
+                                  <td>Lorem ipsum dolor sit amet</td>
+                                </tr>
+                                <tr>
+                                  <td>Lorem ipsum dolor sit amet</td>
+                                </tr>
+                                <tr>
+                                  <td>Lorem ipsum dolor sit amet</td>
+                                </tr>
+                                <tr>
+                                  <td>Lorem ipsum dolor sit amet</td>
+                                </tr>
+                                <tr>
+                                  <td>Lorem ipsum dolor sit amet</td>
+                                </tr>
+                                <tr>
+                                  <td>Lorem ipsum dolor sit amet</td>
+                                </tr>
+                                <tr>
+                                  <td>Lorem ipsum dolor sit amet</td>
+                                </tr>
+                                <tr>
+                                  <td>Lorem ipsum dolor sit amet</td>
+                                </tr>
+                                <tr>
+                                  <td>Lorem ipsum dolor sit amet</td>
+                                </tr>
+                                <tr>
+                                  <td>Lorem ipsum dolor sit amet</td>
+                                </tr>
+                              </table>
+                            </div>
                           </div>
                         </div>
                         <h3>Top Affiliators</h3>
                         <div class="row">
-                          <div class="col-md-6">
-                            <h4>Revenue</h4>
-                            <p>1. Lorem ipsum dolor sit amet <br>
-                               2. consectetur adipisicing elit <br>
-                               3. sed do eiusmod tempor incididunt <br>
-                               4. ut labore et dolore magna aliqua.<br>
-                               5. Ut enim ad minim veniam, quis<br>
-                               7. nostrud exercitation ullamco <br>
-                               8. laboris nisi ut aliquip ex<br>
-                               9. ea commodo consequat. Duis aute<br>
-                               10. irure dolor in reprehenderit in</p>
+                          <div class="col-md-6" id="noPadRight">
+                            <div class="panel panel-success">
+                              <div class="panel-heading">Revenue</div>
+                                <table class="table">
+                                  <tr>
+                                    <td>Lorem ipsum dolor sit amet</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Lorem ipsum dolor sit amet</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Lorem ipsum dolor sit amet</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Lorem ipsum dolor sit amet</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Lorem ipsum dolor sit amet</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Lorem ipsum dolor sit amet</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Lorem ipsum dolor sit amet</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Lorem ipsum dolor sit amet</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Lorem ipsum dolor sit amet</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Lorem ipsum dolor sit amet</td>
+                                  </tr>
+                                </table>
+                              </div>
+                            </div>
+
+                          <div class="col-md-6" id="noPadLeft">
+                            <div class="panel panel-info">
+                              <div class="panel-heading">No. Of Referrals</div>
+                                <table class="table">
+                                  <tr>
+                                    <td>Lorem ipsum dolor sit amet</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Lorem ipsum dolor sit amet</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Lorem ipsum dolor sit amet</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Lorem ipsum dolor sit amet</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Lorem ipsum dolor sit amet</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Lorem ipsum dolor sit amet</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Lorem ipsum dolor sit amet</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Lorem ipsum dolor sit amet</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Lorem ipsum dolor sit amet</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Lorem ipsum dolor sit amet</td>
+                                  </tr>
+                                </table>
+                              </div>
+                            </div>
                           </div>
-                          <div class="col-md-6">
-                            <h4>No. of Referrals</h4>
-                            <p>1. Lorem ipsum dolor sit amet <br>
-                               2. consectetur adipisicing elit <br>
-                               3. sed do eiusmod tempor incididunt <br>
-                               4. ut labore et dolore magna aliqua.<br>
-                               5. Ut enim ad minim veniam, quis<br>
-                               7. nostrud exercitation ullamco <br>
-                               8. laboris nisi ut aliquip ex<br>
-                               9. ea commodo consequat. Duis aute<br>
-                               10. irure dolor in reprehenderit in</p>
-                          </div>
-                        </div>
                         <div class="row">
                           <div class="col-md-12">
-                            <h3>Top Monetization Partners</h4>
-                              <p>1. Lorem ipsum dolor sit amet <br>
-                                 2. consectetur adipisicing elit <br>
-                                 3. sed do eiusmod tempor incididunt <br>
-                                 4. ut labore et dolore magna aliqua.<br>
-                                 5. Ut enim ad minim veniam, quis<br>
-                                 7. nostrud exercitation ullamco <br>
-                                 8. laboris nisi ut aliquip ex<br>
-                                 9. ea commodo consequat. Duis aute<br>
-                                 10. irure dolor in reprehenderit in</p>
+                            <div class="panel panel-success">
+                              <div class="panel-heading">Top Monetization Partners</div>
+                                <table class="table">
+                                  <tr>
+                                    <td>Lorem ipsum dolor sit amet</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Lorem ipsum dolor sit amet</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Lorem ipsum dolor sit amet</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Lorem ipsum dolor sit amet</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Lorem ipsum dolor sit amet</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Lorem ipsum dolor sit amet</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Lorem ipsum dolor sit amet</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Lorem ipsum dolor sit amet</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Lorem ipsum dolor sit amet</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Lorem ipsum dolor sit amet</td>
+                                  </tr>
+                                </table>
+                              </div>
+                            </div>
                           </div>
-                        </div>
                       </div>
 
                       <div id="trending" class="tab-pane fade">
                         <h3>Trending Countries</h3>
                         <div class="row">
-                          <div class="col-md-6">
-                            <h4>Gaining</h4>
-                            <p>1. Lorem ipsum dolor sit amet <br>
-                               2. consectetur adipisicing elit <br>
-                               3. sed do eiusmod tempor incididunt</p>
+                          <div class="col-md-6" id="noPadRight">
+                            <div class="panel panel-success">
+                              <div class="panel-heading">Gaining</div>
+                              <table class="table">
+                                <tr>
+                                  <td>Lorem ipsum dolor sit amet</td>
+                                </tr>
+                                <tr>
+                                  <td>Lorem ipsum dolor sit amet</td>
+                                </tr>
+                                <tr>
+                                  <td>Lorem ipsum dolor sit amet</td>
+                                </tr>
+                              </table>
+                              </div>
+                            </div>
+                          <div class="col-md-6" id="noPadLeft">
+                            <div class="panel panel-danger">
+                              <div class="panel-heading">Losing</div>
+                              <table class="table">
+                                <tr>
+                                  <td>Lorem ipsum dolor sit amet</td>
+                                </tr>
+                                <tr>
+                                  <td>Lorem ipsum dolor sit amet</td>
+                                </tr>
+                                <tr>
+                                  <td>Lorem ipsum dolor sit amet</td>
+                                </tr>
+                              </table>
+                              </div>
+                            </div>
                           </div>
-                          <div class="col-md-6">
-                            <h4>Losing</h4>
-                            <p>1. Lorem ipsum dolor sit amet <br>
-                               2. consectetur adipisicing elit <br>
-                               3. sed do eiusmod tempor incididunt</p>
-                          </div>
-                        </div>
                         <h3>Trending Ad Formats</h3>
                         <div class="row">
-                          <div class="col-md-6">
-                            <h4>Gaining</h4>
-                            <p>1. Lorem ipsum dolor sit amet <br>
-                               2. consectetur adipisicing elit <br>
-                               3. sed do eiusmod tempor incididunt</p>
-                          </div>
-                          <div class="col-md-6">
-                            <h4>Losing</h4>
-                            <p>1. Lorem ipsum dolor sit amet <br>
-                               2. consectetur adipisicing elit <br>
-                               3. sed do eiusmod tempor incididunt</p>
+                          <div class="col-md-6" id="noPadRight">
+                            <div class="panel panel-success">
+                              <div class="panel-heading">Gaining</div>
+                              <table class="table">
+                                <tr>
+                                  <td>Lorem ipsum dolor sit amet</td>
+                                </tr>
+                                <tr>
+                                  <td>Lorem ipsum dolor sit amet</td>
+                                </tr>
+                                <tr>
+                                  <td>Lorem ipsum dolor sit amet</td>
+                                </tr>
+                              </table>
+                              </div>
+                            </div>
+                          <div class="col-md-6" id="noPadLeft">
+                            <div class="panel panel-danger">
+                              <div class="panel-heading">Losing</div>
+                              <table class="table">
+                                <tr>
+                                  <td>Lorem ipsum dolor sit amet</td>
+                                </tr>
+                                <tr>
+                                  <td>Lorem ipsum dolor sit amet</td>
+                                </tr>
+                                <tr>
+                                  <td>Lorem ipsum dolor sit amet</td>
+                                </tr>
+                              </table>
+                              </div>
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div>
                   </section>
 
                   <br>
@@ -658,48 +824,47 @@
                 <div class="row">
                   <div class="padder">
                     <div class="col-lg-12">
-                        <div class="panel b-a">
-                          <div class="panel-heading b-b">Map</div>
-                          <div class="panel-body">
-                            <p class="m-b-lg text-muted">Impressions... bla bla bla</p>
-                            <div class="row m-b-xl">
-                              <div class="col-sm-8">
-                                <div id="world_map" style="height:240px;">
+                      <div class="panel b-a">
+                        <div class="panel-heading b-b">Map</div>
+                        <div class="panel-body">
+                          <p class="m-b-lg text-muted">Impressions... bla bla bla</p>
+                          <div class="row m-b-xl">
+                            <div class="col-sm-8">
+                              <div id="world_map" style="height:240px;">
 
-                                </div>
                               </div>
-                              <div class="col-sm-4">
-                                <div class="h4 m-b font-thin">Statistics</div>
-                                <p>Internal administrative boundaries</p>
-                                <div>
-                                  <div class="inline text-center">
-                                    <div class="easypiechart" data-percent="60" data-bar-color="#fcc633" data-line-width="4" data-loop="false" data-scale-color="#fff" data-rotate="0" data-size="100">
-                                      <div>
-                                        <span class="step">60</span>%
-                                      </div>
+                            </div>
+                            <div class="col-sm-4">
+                              <div class="h4 m-b font-thin">Statistics</div>
+                              <p>Internal administrative boundaries</p>
+                              <div>
+                                <div class="inline text-center">
+                                  <div class="easypiechart" data-percent="60" data-bar-color="#fcc633" data-line-width="4" data-loop="false" data-scale-color="#fff" data-rotate="0" data-size="100">
+                                    <div>
+                                      <span class="step">60</span>%
                                     </div>
-                                    <p class="text-warning font-bold">data</p>
                                   </div>
-                                  <div class="inline text-center">
-                                    <div class="easypiechart" data-percent="35" data-bar-color="#177bbb" data-line-width="4" data-loop="false" data-scale-color="#fff" data-rotate="0" data-size="100">
-                                      <div>
-                                        <span class="step">35</span>%
-                                      </div>
+                                  <p class="text-warning font-bold">data</p>
+                                </div>
+                                <div class="inline text-center">
+                                  <div class="easypiechart" data-percent="35" data-bar-color="#177bbb" data-line-width="4" data-loop="false" data-scale-color="#fff" data-rotate="0" data-size="100">
+                                    <div>
+                                      <span class="step">35</span>%
                                     </div>
-                                    <p class="text-primary font-bold">info</p>
                                   </div>
+                                  <p class="text-primary font-bold">info</p>
                                 </div>
                               </div>
                             </div>
                           </div>
                         </div>
+                      </div>
                      </div>
                    </div>
                   </div>
                 </section>
               </section>
             </section>
-
           </section>
           <a href="#" class="hide nav-off-screen-block" data-toggle="class:nav-off-screen" data-target="#nav"></a>
         </section>
